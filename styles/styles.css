@@ -136,3 +136,41 @@ a {
         opacity: 1;
     }
 }
+
+.about-section {
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.about-title {
+    width: 100%;
+    margin: 50px 0 30px 0;
+    padding: 50px 0;
+    text-align: center;
+    outline: 1px solid blue;
+}
+
+.about-title h1 {
+    font-size: 2rem;
+}
+
+.about-p {
+    display: flex;
+    flex-direction: row;
+    /* align-content: space-around; */
+    outline: 1px solid red;
+    margin: 100px auto;
+    padding: 20px 50px;
+    width: 80%;
+
+}
+
+.about-p p{
+    width: 50%;
+    padding: 10px;
+    text-indent: 25px;
+    font-size: 1.1rem;
+}
