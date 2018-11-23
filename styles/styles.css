@@ -104,7 +104,7 @@ a {
     align-content: center;
     height: 100%;
     min-height: 100%;
-    margin: 230px 0 370px 0;
+    margin: 50px 0 200px 0;
     width: 100%;
     color: rgba(255, 255, 255, .8);
 }
@@ -116,7 +116,8 @@ a {
     line-height: 80px;
     font-size: 40px;
     font-weight: 300;
-    height: 200px;
+    height: 100px;
+    width: 100%;
     padding-top: 20px;
     text-shadow: 3px 3px 3px rgba(0,0,0, .4);
     transition: text-shadow .2s ease-in-out .1s;
@@ -125,6 +126,16 @@ a {
 
 .hero-title-content h1:hover {
     text-shadow: 4px 4px 4px rgba(0,0,0, .6);
+}
+
+.hero-title-content .title1 {
+    margin-left: -100px;
+}
+.hero-title-content .title2 {
+    margin: 0 auto;
+}
+.hero-title-content .title3 {
+    margin-left: 150px;
 }
 
  /* animation */
