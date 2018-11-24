@@ -355,7 +355,7 @@ color: rgba(0,221,255, 1);
     PORTFOLIO SECTION
 ====================== */
 .portfolio-section {
-    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0,0,0,.05));
+    background: linear-gradient(rgba(0, 0, 0, .02), rgba(0,0,0,.1));
     align-content: center;
     justify-content: center;
     width: 100%;
