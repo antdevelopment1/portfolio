@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* outline: 1px solid purple; */
 }
 
 body {
@@ -454,87 +455,126 @@ color: rgba(0,221,255, 1);
 /* =====================
       FOOTER SECTION
 ====================== */
-.footer-section {
-    display: flex;
-    flex-direction: row;
-    /* justify-content: center; */
-    /* align-items: space-between; */
-    /* align-content: center; */
-    /* outline: 1px solid greenyellow; */
-    height: 100px;
-    width: 100%;
-    padding: 10px 10px;
-    background-color: black;
-
-}
-
 footer {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
     width: 100%;
     height: 100%;
     padding-top: 10px;
     background-color: black;
+    /* font-family: 'Advent Pro', sans-serif; */
+}
+
+footer .footer-title {
+    /* outline: 1px solid blue; */
+    color: rgba(255, 255, 255, .8);
+    text-align: center;
+    padding-bottom: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+footer .contact-icon {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+}
+
+footer .contact-icon div {
+    display: flex;
+    flex-direction: row;
+    /* outline: 1px solid blue; */
+    text-align: justify;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    padding: 7px 0;
+    letter-spacing: 2px;
+}
+
+footer .contact-icon div i {
+    margin-right: 15px;
+    font-size: 1.5rem;
+    padding-left: 15px;
+}
+
+footer .contact-icon .email {
+    color: rgba(151, 25, 13, .6);
+    transition: color .2s ease-in-out .1s;
+}
+footer .contact-icon .email a {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, .7);
+    transition: color .2s ease-in-out .1s;
+}
+
+footer .contact-icon .email:hover {
+    color: rgb(151, 25, 13)
+}
+
+footer .contact-icon .email a:hover{
+    color: rgb(151, 25, 13);
+}
+
+footer .contact-icon .github {
+    color: rgba(78, 52, 117, .6);
+    transition: color .2s ease-in-out .1s;
+}
+footer .contact-icon .github a {
+    color:rgba(255, 255, 255, .7);
+    font-size: 1rem;
+    transition: color .2s ease-in-out .1s;
+}
+
+footer .contact-icon .github:hover {
+    color: rgba(78, 52, 117, 1);
+}
+footer .contact-icon .github a:hover {
+    color: rgba(78, 52, 117, 1);
+}
+
+footer .contact-icon .linkedin {
+    color: rgba(0, 88, 139, .6);
+    transition: color .2s ease-in-out .1s;
+}
+footer .contact-icon .linkedin a {
+    color:rgba(255, 255, 255, .7);
+    font-size: 1rem;
+    transition: color .2s ease-in-out .1s;
+}
+
+footer .contact-icon .linkedin:hover {
+    color: rgba(0, 88, 139, 1);
+}
+footer .contact-icon .linkedin a:hover {
+    color: rgba(0, 88, 139, 1);
 }
 
 footer .footer-p{
+    /* outline: 1px solid red; */
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
     height: 100%;
     width: 100%;
-    padding-bottom: 30px;
+    padding: 10px 0;
+    color: white;
 }
 
-.footer-li {
-    display: flex;
-    flex-direction: row;
-    flex-basis: 70%;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
-    padding: 10px 0 15px 0;
-}
 
-footer li {
-    display: flex;
-    flex-direction: row;
-    line-height: 1.4rem;
+.copyright {
+    font-family: 'Advent Pro', sans-serif;
     justify-content: center;
-    font-size: 1.3rem;
-    outline: 1px solid green;
-    /* color: rgba(255, 255, 255, .4); */
- }
-
- footer li a i {
-    color: rgba(255, 255, 255, .4);
-    transition: color .2s ease-in-out .1s;
- }
-
- footer li a i:hover {
-    color: rgba(255, 255, 255, .8);
- }
- 
- footer p {
-    display: flex;
-    justify-content: flex-start;
-    align-content: center;
-    font-size: 1.1rem;
-    color: rgba(255, 255, 255, .6);
-    letter-spacing: 1px;
-    padding-top: 2px;
-    /* outline: 1px solid lightblue; */
-    width: 30%;
-    margin: auto;
-}
-.footer-p .contact {
-    padding-bottom: 10px;
-    font-size: 1.7rem;
-    outline: 1ps solid green;
-}
-.copyright, .contact {
-    justify-content: center;
-    font-size: 1em;
-    padding-top: 10px;
+    font-size: .9em;
+    color: rgba(255, 255, 255, .5);
+    font-weight: 100;
+    padding: 5px;
     letter-spacing: 4px;
     /* outline: 1px solid red; */
 }
