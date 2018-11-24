@@ -355,7 +355,7 @@ color: rgba(0,221,255, 1);
     PORTFOLIO SECTION
 ====================== */
 .portfolio-section {
-    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0,0,0,.2));
+    background: linear-gradient(rgba(0, 0, 0, .2), rgba(0,0,0,.05));
     align-content: center;
     justify-content: center;
     width: 100%;
@@ -398,6 +398,27 @@ color: rgba(0,221,255, 1);
     width: 100%;
     align-content: center;
     align-items: center;
+}
+
+.portfolio-content-p{
+    display: flex;
+    flex-direction: column;
+    /* outline: 1px solid red; */
+    align-content: center;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+}
+
+.portfolio-content-p p {
+    align-self: center;
+    /* outline: 1px solid blue; */
+    width: 100%;
+    padding: 20px 20px;
+    font-size: 1.1rem;
+    text-indent: 25px;
+    line-height: 2.2rem;
+    letter-spacing: 2px;
 }
 
 .portfolio-content-photo {
