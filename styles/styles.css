@@ -199,7 +199,7 @@ a {
     flex-direction: row;
     /* outline: 1px solid blue; */
     margin: 10px auto;
-    padding: 10px 50px;
+    padding: 80px 50px;
     width: 100%;
     align-content: center;
     align-items: center;
@@ -217,12 +217,12 @@ a {
 .about-content-p p {
     align-self: center;
     /* outline: 1px solid blue; */
-    width: 70%;
-    padding: 10px 0;
-    font-size: 1rem;
+    width: 100%;
+    padding: 20px 20px;
+    font-size: 1.1rem;
     text-indent: 25px;
-    line-height: 1.9rem;
-    letter-spacing: 1px;
+    line-height: 2.2rem;
+    letter-spacing: 2px;
 }
 
 .about-content-photo {
@@ -231,13 +231,15 @@ a {
     /* outline: 1px solid green; */
     width: 50%;
     height: 100%;
-    padding: 10px;
+    padding: 30px;
 }
 
 .about-content-photo img {
     /* box-shadow: 5px 5px 5px black; */
     /* transform: scale(.6); */
     /* outline: 1px solid blue; */
+    height: 60%;
+    width: 60%;
     transition: transform .4s ease-in, opacity .4s ease-in;
     opacity: .9;
 }
