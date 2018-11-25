@@ -759,12 +759,12 @@ footer .footer-p{
 
 }
 
-/* @media screen and (max-width: 360px) {
+@media screen and (max-width: 360px) {
  
  footer .contact-icon .email a,
  footer .contact-icon .github a,
  footer .contact-icon .linkedin a {
  font-size: .8rem;
  letter-spacing: 1px;
- } */
-/* } */
+ }
+ }
