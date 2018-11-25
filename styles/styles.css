@@ -573,6 +573,12 @@ footer .footer-p{
 /* =====================
  MEDIA QUERIES
 ====================== */
+@media screen and (max-width: 1500px) {
+    footer .contact-icon {
+        width: 38%;
+    }
+}
+
 @media screen and (max-width: 1300px) {
     .nav-container {
         /* outline: 1px solid yellow; */
@@ -598,6 +604,7 @@ footer .footer-p{
     }
 
     .hero-title-content .title1 {
+        /* outline: 1px solid yellow; */
         padding-right: 300px;
     } 
 
@@ -666,26 +673,104 @@ footer .footer-p{
     }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1000px) {
+    
+    .hero-title-content {
+        /* outline: 1px solid red; */
+    }
+
+    .hero-title-content h1 {
+        /* outline: 1px solid blue; */
+        height: 60px;
+        line-height: 40px;
+        font-size: 1.9rem;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .hero-title-content .title1 {
+        /* outline: 1px solid yellow; */
+        padding-right: 0;
+    } 
+
+    .hero-title-content .title3 {
+        padding-left: 0;
+    }
+
+    .about-content-photo img {
+        height: 80%;
+        width: 80%;
+    }
+
+    footer .contact-icon {
+        width: 44%;
+    }
+
+    footer .contact-icon .email a,
+    footer .contact-icon .github a,
+    footer .contact-icon .linkedin a {
+        font-size: .75rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .nav-container nav {
+        height: 45px;
+        justify-content: center;
+    }
+
+    .hero-title-content {
+        /* outline: 1px solid yellow; */
+        margin: 90px 0 40px 0;
+    }
+
+    .about-content {
+        flex-direction: column-reverse;
+    }
+
+    .about-content-p {
+        width: 80%;
+    }
+
+    .about-content-photo {
+        width: 55%;
+    }
+
+    .portfolio-content {
+        flex-direction: column;
+    }
+
+    .portfolio-content-p {
+        width: 80%;
+    }
+
+    .portfolio-content-photo {
+        width: 70%;
+    }
+
+    footer .contact-icon {
+        width: 48%;
+    }
 
 }
 
-@media screen and (max-with: 1000px) {
-
+@media screen and (max-width: 850px) {
+    footer .contact-icon {
+        width: 52%;
+    }
 }
 
-@media screen and (max-width: 992px) {
 
-}
 
 @media screen and (max-width: 768px) {
 
 }
+/*
 
 @media screen and (max-width: 600px) {
     .nav-container {
         padding-bottom: 25px;
-        /* outline: 1px solid red; */
+        outline: 1px solid red;
         }
        
         .nav-container nav {
@@ -700,12 +785,12 @@ footer .footer-p{
         }
        
         .hero-title-content {
-        /* outline: 1px solid yellow; */
+        outline: 1px solid yellow;
         margin: 0 0 80px 0;
         }
        
         .hero-title-content h1 {
-        /* outline: 1px solid green; */
+        outline: 1px solid green;
         letter-spacing: 5.5px;
         line-height: 50px;
         font-size: 24px;
@@ -716,21 +801,21 @@ footer .footer-p{
        
         .hero-title-content .title1 {
         padding-right: 0px;
-        /* outline: 4px solid green; */
+        outline: 4px solid green;
         }
        
         .hero-title-content .title2 {
-        /* outline: 4px solid yellow; */
+        outline: 4px solid yellow;
         }
        
         .hero-title-content .title3 {
         padding-left: 0;
-        /* outline: 2px solid red; */
+        outline: 2px solid red;
         margin-bottom: 50px;
         }
        
         .quote-bar {
-        /* outline: 1px solid red; */
+        outline: 1px solid red;
         height: 80px;
         width: 100%;
         background-color: black
@@ -747,13 +832,13 @@ footer .footer-p{
         .about-content {
         display: flex;
         flex-direction: column-reverse;
-        /* outline: 1px solid blue; */
+        outline: 1px solid blue;
         margin: 10px auto;
         padding: 40px 15px 20px 15px;
         } 
        
         .about-content-p {
-        /* outline:1px solid yellow; */
+        outline:1px solid yellow;
         width: 90%;
         margin-top: 20px;
         }
@@ -787,7 +872,7 @@ footer .footer-p{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        /* outline: 1px solid blue; */
+        outline: 1px solid blue;
         margin: 10px auto;
         padding: 40px 15px 20px 15px;
         }
@@ -823,7 +908,7 @@ footer .footer-p{
         }
         
         footer .contact-icon {
-        /* outline: 1px solid red; */
+        outline: 1px solid red;
         width: 100%;
         }
        
@@ -850,7 +935,7 @@ footer .footer-p{
 @media screen and (max-width: 400px) {
  .nav-container {
  padding-bottom: 25px;
- /* outline: 1px solid red; */
+ outline: 1px solid red;
  }
 
  .nav-container nav {
@@ -865,12 +950,12 @@ footer .footer-p{
  }
 
  .hero-title-content {
- /* outline: 1px solid yellow; */
+ outline: 1px solid yellow;
  margin: 0 0 80px 0;
  }
 
  .hero-title-content h1 {
- /* outline: 1px solid green; */
+ outline: 1px solid green;
  letter-spacing: 5.5px;
  line-height: 50px;
  font-size: 24px;
@@ -881,21 +966,21 @@ footer .footer-p{
 
  .hero-title-content .title1 {
  padding-right: 0px;
- /* outline: 4px solid green; */
+ outline: 4px solid green;
  }
 
  .hero-title-content .title2 {
- /* outline: 4px solid yellow; */
+ outline: 4px solid yellow;
  }
 
  .hero-title-content .title3 {
  padding-left: 0;
- /* outline: 2px solid red; */
+ outline: 2px solid red;
  margin-bottom: 50px;
  }
 
  .quote-bar {
- /* outline: 1px solid red; */
+ outline: 1px solid red;
  height: 80px;
  width: 100%;
  background-color: black
@@ -912,13 +997,13 @@ footer .footer-p{
  .about-content {
  display: flex;
  flex-direction: column-reverse;
- /* outline: 1px solid blue; */
+ outline: 1px solid blue;
  margin: 10px auto;
  padding: 40px 15px 20px 15px;
  } 
 
  .about-content-p {
- /* outline:1px solid yellow; */
+ outline:1px solid yellow;
  width: 90%;
  margin-top: 20px;
  }
@@ -952,7 +1037,7 @@ footer .footer-p{
  display: flex;
  flex-direction: column;
  justify-content: center;
- /* outline: 1px solid blue; */
+ outline: 1px solid blue;
  margin: 10px auto;
  padding: 40px 15px 20px 15px;
  }
@@ -988,7 +1073,7 @@ footer .footer-p{
  }
  
  footer .contact-icon {
- /* outline: 1px solid red; */
+ outline: 1px solid red;
  width: 100%;
  }
 
@@ -1023,4 +1108,4 @@ footer .footer-p{
  }
 
  
-}
+} */
