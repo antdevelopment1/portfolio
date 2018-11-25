@@ -573,6 +573,12 @@ footer .footer-p{
 /* =====================
  MEDIA QUERIES
 ====================== */
+@media screen and (max-width: 1500px) {
+    footer .contact-icon {
+        width: 38%;
+    }
+}
+
 @media screen and (max-width: 1300px) {
     .nav-container {
         /* outline: 1px solid yellow; */
