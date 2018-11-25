@@ -475,7 +475,7 @@ footer .contact-icon {
 footer .contact-icon div {
  display: flex;
  flex-direction: row;
- outline: 1px solid blue;
+ /* outline: 1px solid blue; */
  text-align: justify;
  width: 100%;
  align-content: center;
@@ -574,9 +574,95 @@ footer .footer-p{
  MEDIA QUERIES
 ====================== */
 @media screen and (max-width: 1300px) {
-    .hero-title-content{
-        outline: 1px solid red;
-        margin: 20px 0;
+    .nav-container {
+        /* outline: 1px solid yellow; */
+        padding-bottom: 40px;
+    }
+
+    .nav-container nav li {
+        font-size: 16px;
+        padding: 10px 10px;
+    }
+
+    .hero-title-content {
+        /* outline: 1px solid red; */
+        margin: 10px 0 50px 0;
+    }
+
+    .hero-title-content h1 {
+        /* outline: 1px solid blue; */
+        height: 60px;
+        line-height: 50px;
+        font-size: 35px;
+        padding: 0px;
+    }
+
+    .hero-title-content .title1 {
+        padding-right: 300px;
+    } 
+
+    .hero-title-content .title3 {
+        padding-left: 300px;
+    }
+
+    .quote-bar {
+        height: 80px;
+    }
+
+    .quote-bar p {
+        font-size: .9rem;
+        line-height: 1.7rem;
+    }
+
+    .about-content {
+        padding: 40px 25px 20px 25px;
+    }
+
+    .about-content-p p {
+        line-height: 1.7rem;
+    }
+
+    .icon-bar {
+        height: 80px;
+    }
+
+    .icon-bar i {
+        font-size: 35px;
+    }
+
+    .portfolio-content {
+        padding: 40px 25px 20px 25px;
+    }
+
+    .portfolio-content-p p {
+        line-height: 1.7rem;
+        font-size: 1rem;
+    }
+
+    .github-button a {
+        padding: 10px 16px;
+    }
+
+    footer .footer-title {
+        font-size: .8rem;
+    }
+
+    footer .contact-icon {
+        width: 38%;
+    }
+
+    footer .contact-icon div {
+        padding: 3px;
+    }
+
+    footer .contact-icon .email a,
+    footer .contact-icon .github a,
+    footer .contact-icon .linkedin a {
+        font-size: .8rem;
+    }
+
+    .copyright {
+        padding: 2px;
     }
 }
 
