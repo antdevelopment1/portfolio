@@ -36,7 +36,6 @@ a {
 /* =====================
       LANDING SECTION
 ====================== */
-
 .hero-section {
     display: flex;
     flex-direction: column;
@@ -254,7 +253,6 @@ a {
     opacity: .5;
 }
 
-
 .resume-button {
     /* outline: 1px solid blue; */
     width: 50%;
@@ -365,9 +363,6 @@ color: rgba(0,221,255, 1);
     height: 100%;
     background-color: rgba(255, 255, 255, .8);
 }
-/* .about-title h1 {
-    font-size: 2rem;
-} */
 
 .portfolio-content {
     display: flex;
@@ -415,7 +410,6 @@ color: rgba(0,221,255, 1);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, .7);
     /* transform: scale(.6); */
     /* outline: 1px solid blue; */
-    
     height: 60%;
     width: 60%;
     transition: transform .4s ease-in, opacity .4s ease-in;
@@ -466,7 +460,6 @@ footer {
     background-color: black;
     font-family: 'Rokkitt', serif;
     font-family: 'Open Sans Condensed', sans-serif;
-    
 }
 
 footer .footer-title {
@@ -526,6 +519,7 @@ footer .contact-icon .github {
     color: rgba(78, 52, 117, .6);
     transition: color .2s ease-in-out .1s;
 }
+
 footer .contact-icon .github a {
     color:rgba(255, 255, 255, .7);
     font-size: 1rem;
@@ -535,6 +529,7 @@ footer .contact-icon .github a {
 footer .contact-icon .github:hover {
     color: rgba(78, 52, 117, 1);
 }
+
 footer .contact-icon .github a:hover {
     color: rgba(78, 52, 117, 1);
 }
@@ -543,6 +538,7 @@ footer .contact-icon .linkedin {
     color: rgba(0, 88, 139, .6);
     transition: color .2s ease-in-out .1s;
 }
+
 footer .contact-icon .linkedin a {
     color:rgba(255, 255, 255, .7);
     font-size: 1rem;
@@ -552,6 +548,7 @@ footer .contact-icon .linkedin a {
 footer .contact-icon .linkedin:hover {
     color: rgba(0, 88, 139, 1);
 }
+
 footer .contact-icon .linkedin a:hover {
     color: rgba(0, 88, 139, 1);
 }
@@ -568,7 +565,6 @@ footer .footer-p{
     padding: 10px 0;
     color: white;
 }
-
 
 .copyright {
     justify-content: center;
