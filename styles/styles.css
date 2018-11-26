@@ -133,9 +133,9 @@ a {
  padding-right: 500px;
  /* outline: 4px solid green; */
 }
-.hero-title-content .title2 {
- /* outline: 4px solid yellow; */
-}
+/* .hero-title-content .title2 {
+ outline: 4px solid yellow;
+} */
 .hero-title-content .title3 {
  padding-left: 500px;
  margin-bottom: 100px;
@@ -890,7 +890,7 @@ footer .footer-p{
     }
 
     .github-button a {
-        outline: 1px solid red;
+        /* outline: 1px solid red; */
         padding: 15px 5px;
     }
 
