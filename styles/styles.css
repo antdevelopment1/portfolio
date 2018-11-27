@@ -453,7 +453,6 @@ footer {
  height: 100%;
  padding-top: 10px;
  background-color: black;
- font-family: 'Rokkitt', serif;
  font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -470,19 +469,23 @@ footer .footer-title {
 footer .contact-icon {
  display: flex;
  flex-direction: column;
- width: 28%;
+ height: 100%;
+ width: 100%;
  margin: 0 auto;
+ justify-content: center;
+ padding: auto;
+ /* outline: 1px solid green; */
 }
 
 footer .contact-icon div {
  display: flex;
  flex-direction: row;
+ justify-content: center;
  /* outline: 1px solid blue; */
- text-align: justify;
  width: 100%;
  align-content: center;
  align-items: center;
- padding: 7px 0;
+ /* padding: 7px 0; */
  letter-spacing: 2px;
 }
 
@@ -679,7 +682,8 @@ footer .footer-p{
     }
 
     footer .contact-icon {
-        width: 38%;
+        /* width: 38%; */
+        width: 100%;
     }
 
     footer .contact-icon div {
@@ -780,9 +784,6 @@ footer .footer-p{
         width: 100%;
     }
 
-    footer .contact-icon {
-        width: 44%;
-    }
 
     footer .contact-icon .email a,
     footer .contact-icon .github a,
@@ -831,9 +832,6 @@ footer .footer-p{
         width: 70%;
     }
 
-    footer .contact-icon {
-        width: 48%;
-    }
 }
 
  @media screen and (max-width: 850px) {
@@ -858,22 +856,7 @@ footer .footer-p{
         width: 90%;
     }
 
-    footer .contact-icon {
-        width: 52%;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    footer .contact-icon {
-        width: 55%;
-    }
-}
-
-@media screen and (max-width: 675px) {
-    footer .contact-icon {
-        width: 67%;
-    }
-}
+ }
 
 
 @media screen and (max-width: 600px) {
@@ -887,11 +870,6 @@ footer .footer-p{
     .about-content-photo img {
         /* outline: 1px solid red; */
         width: 90%;
-    }
-
-    footer .contact-icon {
-        /* outline: 1px solid red; */
-        width: 70%;
     }
 }
 @media screen and (max-width: 550px) {
@@ -941,18 +919,6 @@ footer .footer-p{
         height: 350px;
         width: 215px;
     }
-
-    footer .contact-icon {
-        /* outline: 1px solid purple; */
-        width: 75%;
-    }
-}
-@media screen and (max-width: 500px) {
-
-    footer .contact-icon {
-        /* outline: 1px solid blue; */
-        width: 80%;
-    }
 }
 @media screen and (max-width: 450px) {
 
@@ -968,10 +934,6 @@ footer .footer-p{
         font-size: 1.2rem;
         letter-spacing: 1px;
         line-height: 1.4rem;
-    }
-
-    footer .contact-icon {
-        width: 100%;
     }
 }
 
