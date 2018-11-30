@@ -482,15 +482,33 @@ footer .contact-icon div i {
  font-size: 1.5rem;
  padding-left: 15px;
 }
+footer .contact-icon .resume {
+    color: rgba(18, 87, 38, 0.6);
+    transition: color .2s ease-in-out .1s;
+}
+
+footer .contact-icon .resume a {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, .7);
+    transition: color .2s ease-in-out .1s;
+}
+   
+footer .contact-icon .resume:hover {
+    color: rgb(18,87,38);
+}
+   
+footer .contact-icon .resume a:hover{
+    color: rgb(18,87,38);
+}
 
 footer .contact-icon .email {
- color: rgba(151, 25, 13, .6);
- transition: color .2s ease-in-out .1s;
+    color: rgba(151, 25, 13, .6);
+    transition: color .2s ease-in-out .1s;
 }
 footer .contact-icon .email a {
- font-size: 1rem;
- color: rgba(255, 255, 255, .7);
- transition: color .2s ease-in-out .1s;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, .7);
+    transition: color .2s ease-in-out .1s;
 }
 
 footer .contact-icon .email:hover {
