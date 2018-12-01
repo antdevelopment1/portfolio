@@ -1,6 +1,6 @@
-$(document).ready(function() {
-    $('a').click(function() {
-        $(this).css('background-color', '#ff0000');
-    })
+// $(document).ready(function() {
+//     $('a').click(function() {
+//         $(this).css('background-color', '#ff0000');
+//     })
 
-});
+// });
