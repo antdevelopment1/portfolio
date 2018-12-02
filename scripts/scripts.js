@@ -53,7 +53,12 @@ $(document).ready(function() {
         offset:'1%'
     });
      $('.js--wp-3').waypoint(function(direction) {
-        $('.js--wp-3').addClass('animated fadeInLeft');
+        $('.js--wp-3').addClass('animated slideInUp');
+    },{
+        offset:'50%'
+    });
+    $('.js--wp-4').waypoint(function(direction) {
+        $('.js--wp-4').addClass('animated fadeInLeft');
     },{
         offset:'50%'
     });
