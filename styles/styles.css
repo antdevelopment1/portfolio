@@ -105,12 +105,14 @@ p {
     opacity: .8;
 }
 
-.nav-container .nav li a:hover {
+.nav-container .nav li a:hover,
+.sitcky .nav li a:hover {
     border-bottom: 1px solid white;
     opacity: .6;
 }
 
-.nav-container .navli a:focus {
+.nav-container .nav li a:focus,
+.sticky .nav li a:focus {
     opacity: .6;
     border-bottom: 1px solid white;
 }
