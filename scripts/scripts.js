@@ -2,9 +2,9 @@
 $(document).ready(function() {
     $('.js--section-about').waypoint(function(direction) {
         if (direction == 'down') {
-            $('nav').addClass('sticky');
+            $('.nav-container').addClass('sticky');
         } else {
-            $('nav').removeClass('sticky');
+            $('.nav-container').removeClass('sticky');
         }
     }, {
         offset: '60px;'
@@ -17,10 +17,7 @@ $(document).ready(function() {
     .click(function(event) {
     // On-page links
     if (
-        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-        && 
-        location.hostname == this.hostname
-    ) {
+        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')  && location.hostname == this.hostname ) {
         // Figure out element to scroll to
         var target = $(this.hash);
         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -44,5 +41,25 @@ $(document).ready(function() {
         });
         }
     }
+    });
+    $('.js--wp-1').waypoint(function(direction) {
+        $('.js--wp-1').addClass('animated fadeIn');
+    },{
+        offset:'50%'
+    });
+     $('.js--wp-2').waypoint(function(direction) {
+        $('.js--wp-2').addClass('animated fadeIn');
+    },{
+        offset:'1%'
+    });
+     $('.js--wp-3').waypoint(function(direction) {
+        $('.js--wp-3').addClass('animated slideInUp');
+    },{
+        offset:'50%'
+    });
+    $('.js--wp-4').waypoint(function(direction) {
+        $('.js--wp-4').addClass('animated fadeInLeft');
+    },{
+        offset:'50%'
     });
 });
