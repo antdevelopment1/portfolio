@@ -1,5 +1,5 @@
 # April Copes Fullstack Software Developement Portfolio
-## DESIGN BUILD IN PROGRESS
+## DESIGN BUILD IN PROGRESS - NOT YET RESPONSIVE
 <img src="readme/images/landingpic.png" width="450">
 <img src="readme/images/aboutpic.png" width="450">
 <img src="readme/images/portfoliopic.png" width="450">
