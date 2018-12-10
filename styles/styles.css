@@ -540,14 +540,16 @@ footer .contact-icon div i {
  margin-right: 15px;
  font-size: 1.5rem;
  padding-left: 15px;
+/* outline: 1px solid red; */
 }
+
 footer .contact-icon .resume {
     color: rgba(18, 87, 38, 0.6);
     transition: color .2s ease-in-out .1s;
+    /* outline: 1px solid red; */
 }
 
 footer .contact-icon .resume a {
-    font-size: 1rem;
     color: rgba(255, 255, 255, .7);
     transition: color .2s ease-in-out .1s;
 }
@@ -769,7 +771,7 @@ footer .footer-p{
     footer .contact-icon div {
         padding: 3px;
     }
-
+    footer .contact-icon .resume a,
     footer .contact-icon .email a,
     footer .contact-icon .github a,
     footer .contact-icon .linkedin a {
@@ -869,7 +871,7 @@ footer .footer-p{
         width: 100%;
     }
 
-
+    footer .contact-icon .resume a,
     footer .contact-icon .email a,
     footer .contact-icon .github a,
     footer .contact-icon .linkedin a {
@@ -1098,10 +1100,12 @@ footer .footer-p{
         padding: 15px 10px;
     }
 
+    footer .contact-icon .resume a,
     footer .contact-icon .email a,
     footer .contact-icon .github a,
     footer .contact-icon .linkedin a {
         font-size: .8rem;
         letter-spacing: 0.05rem;
+        outline: 1px solid red;
     } 
 } 
