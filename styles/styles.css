@@ -713,11 +713,13 @@ footer .footer-p{
 
     .hero-title-content .title1 {
         /* outline: 1px solid yellow; */
+        margin-top: 255px;
         padding-right: 300px;
     } 
 
     .hero-title-content .title3 {
         padding-left: 300px;
+        margin-bottom: 140px;
     }
 
     .quote-bar {
@@ -770,6 +772,7 @@ footer .footer-p{
         padding: 3px;
     }
 
+    footer .contact-icon .resume a,
     footer .contact-icon .email a,
     footer .contact-icon .github a,
     footer .contact-icon .linkedin a {
@@ -869,7 +872,7 @@ footer .footer-p{
         width: 100%;
     }
 
-
+    footer .contact-icon .resume a,
     footer .contact-icon .email a,
     footer .contact-icon .github a,
     footer .contact-icon .linkedin a {
@@ -1098,6 +1101,7 @@ footer .footer-p{
         padding: 15px 10px;
     }
 
+    footer .contact-icon .resume a,
     footer .contact-icon .email a,
     footer .contact-icon .github a,
     footer .contact-icon .linkedin a {
