@@ -242,7 +242,7 @@ p {
     display: flex;
     flex-direction: row;
     /* outline: 1px solid blue; */
-    margin: 10px auto;
+    margin: 50px auto 10px auto;
     padding: 80px 50px;
     width: 100%;
     align-content: center;
@@ -289,7 +289,7 @@ p {
  /* outline: 1px solid blue; */
     width: 50%;
     height: 75px;
-    margin: 5px auto 40px auto;
+    margin: 5px auto 80px auto;
     padding: 15px;
     text-align: center;
 }
@@ -439,7 +439,7 @@ p {
 .portfolio-content-p p {
     align-self: center;
     /* outline: 1px solid blue; */
-    width: 85%;
+    width: 90%;
     font-size: 1.8rem;
     line-height: 2.7rem;
     /* letter-spacing: 1px; */
@@ -477,7 +477,7 @@ p {
 .github-button a{
     /* outline: 1px solid purple; */
     width: 100%;
-    font-size: 23px;
+    font-size: 30px;
     padding: 12px 20px 12px 20px;
     color: black;
     border: 1px solid black;
@@ -515,6 +515,7 @@ footer .footer-title {
  text-align: center;
  letter-spacing: 4px;
  font-weight: 500;
+ font-size: 1.3rem;
 }
 
 footer .contact-icon {
@@ -548,6 +549,7 @@ footer .contact-icon div i {
 }
 
 footer .contact-icon .resume {
+    font-size: 1.3rem;
     color: rgba(18, 87, 38, 0.6);
     transition: color .2s ease-in-out .1s;
     /* outline: 1px solid red; */
@@ -567,11 +569,12 @@ footer .contact-icon .resume a:hover{
 }
 
 footer .contact-icon .email {
+    font-size: 1.3rem;
     color: rgba(151, 25, 13, .6);
     transition: color .2s ease-in-out .1s;
 }
 footer .contact-icon .email a {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: rgba(255, 255, 255, .7);
     transition: color .2s ease-in-out .1s;
 }
@@ -591,7 +594,7 @@ footer .contact-icon .github {
 
 footer .contact-icon .github a {
  color:rgba(255, 255, 255, .7);
- font-size: 1rem;
+ font-size: 1.3rem;
  transition: color .2s ease-in-out .1s;
 }
 
@@ -610,7 +613,7 @@ footer .contact-icon .linkedin {
 
 footer .contact-icon .linkedin a {
  color:rgba(255, 255, 255, .7);
- font-size: 1rem;
+ font-size: 1.3rem;
  transition: color .2s ease-in-out .1s;
 }
 
