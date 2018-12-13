@@ -728,16 +728,6 @@ footer .footer-p{
 }
 
 @media screen and (max-width: 1300px) {
-    .nav-container {
-        /* outline: 1px solid blue; */
-        padding-bottom: 40px;
-    }
-
-    .nav-container .nav li {
-        font-size: 1.3rem;
-        padding: 10px 10px;
-
-    }
 
     .sticky .title {
         align-items: center;
@@ -748,11 +738,6 @@ footer .footer-p{
         padding-right: 0px;
     }
 
-    .hero-title-content {
-        /* outline: 1px solid red; */
-        margin: 10px 0 50px 0;
-    }
-
     .hero-title-content h1 {
         /* outline: 1px solid blue; */
         height: 60px;
@@ -760,16 +745,11 @@ footer .footer-p{
         font-size: 35px;
         padding: 0px;
     }
-
+  
     .hero-title-content .title1 {
-        /* outline: 1px solid yellow; */
-        padding-right: 300px;
-    } 
-
-    .hero-title-content .title3 {
-        padding-left: 300px;
+        margin-top: 300px;
     }
-
+    
     .quote-bar {
         height: 80px;
     }
@@ -780,12 +760,15 @@ footer .footer-p{
         letter-spacing: .11rem;
     }
 
-    .about-content {
-        padding: 40px 25px 20px 25px;
-    }
-
     .about-content-p p {
-        line-height: 1.7rem;
+        line-height: 2.5rem;
+    }
+   
+    .about-content-photo img {
+        height: 75%;
+        width: 75%;
+        /* outline: 13px solid red; */
+    
     }
     .icon-bar {
         height: 80px;
@@ -795,17 +778,9 @@ footer .footer-p{
         font-size: 35px;
     }
 
-    .portfolio-content {
-        padding: 40px 25px 20px 25px;
-    }
-
     .portfolio-content-p p {
-        line-height: 1.7rem;
-    }
-
-    .github-button a {
-        padding: 10px 16px;
-    }
+        line-height: 2.5rem;
+    } 
 
     footer .footer-title {
         font-size: .8rem;
@@ -823,13 +798,14 @@ footer .footer-p{
     footer .contact-icon .email a,
     footer .contact-icon .github a,
     footer .contact-icon .linkedin a {
-        font-size: .8rem;
+        font-size: 1rem;
     }
 
     .copyright {
         padding: 2px;
     }
 }
+
 @media screen and (max-width: 1200px) {
     .about-content-photo img{
         /* outline: 1px solid red; */
