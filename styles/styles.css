@@ -178,7 +178,7 @@ p {
 
 .hero-title-content .title1 {
     padding-right: 500px;
-    margin-top: 350px;
+    margin-top: 390px;
     /* outline: 4px solid blue; */
 }
 
@@ -230,7 +230,7 @@ p {
     color: white;
     font-family: 'Open Sans Condensed', sans-serif;
     /* font-family: 'Playfair Display', serif; */
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 300;
     letter-spacing: 3px;
     line-height: 2rem;
@@ -669,8 +669,36 @@ footer .footer-p{
  MEDIA QUERIES
 ====================== */
 @media screen and (max-width: 1500px) {
+    .nav-container .title p {
+        font-size:22px;
+    }
+    .nav-container .nav li {
+        font-size: 22px; 
+    }
+
+    .quote-bar p {
+        line-height: 2rem;
+        font-size: 1.15rem;
+    }
+    .resume-button a {
+        font-size: 25px;
+    }
+    .hero-title-content h1 {
+        font-size: 45px;
+    }
+    .hero-title-content .title1 {
+        margin-top: 200px;
+    }
+    
+    .hero-title-content .title3 {
+        margin-bottom: 100px;
+        /* outline: 4px solid blue; */
+    }
+
     .about-content-p p {
-        font-size: 1.3rem;
+        padding: 10px;
+        font-size: 1.4rem;
+        width: 100%;
     }
     .about-content-photo img {
         height: 70%;
@@ -678,7 +706,20 @@ footer .footer-p{
     
     }
     .portfolio-content-p p {
-        font-size: 1.3rem;
+        width: 100%;
+        padding: 10px;
+        font-size: 1.4rem;
+    }
+
+    .portfolio-content-photo img {
+        width: 55%;
+
+    }
+    .github-button a {
+        font-size: 25px;
+    }
+    footer .footer-title {
+        font-size: 1rem;
     }
 
     footer .contact-icon {
