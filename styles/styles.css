@@ -13,7 +13,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif; 
 }
 
 /* =====================
@@ -57,7 +57,7 @@ p {
     display: flex;
     flex-direction: row;
     align-content: center;
-    height: 68px;
+    height: 75px;
     width: 100%;
     /* padding: 35px 35px 0px 35px; */
     /* outline: 1px solid red; */
@@ -85,7 +85,7 @@ p {
 
 .nav-container .title p {
     align-self: center;
-    font-size: 20px;
+    font-size: 25px;
     padding: 13px 0 13px 35px;
     letter-spacing: 1.9px;
 }
@@ -95,7 +95,7 @@ p {
     /* display: flex; */
     padding: 13px 30px;
     letter-spacing: 1.5px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .nav-container .nav li a {
@@ -162,7 +162,7 @@ p {
     justify-content: center;
     letter-spacing: 7.5px;
     line-height: 80px;
-    font-size: 45px;
+    font-size: 55px;
     font-weight: 300;
     height: 100px;
     width: 100%;
@@ -178,13 +178,13 @@ p {
 
 .hero-title-content .title1 {
     padding-right: 500px;
-    margin-top: 220px;
+    margin-top: 390px;
     /* outline: 4px solid blue; */
 }
 
 .hero-title-content .title3 {
     padding-left: 500px;
-    margin-bottom: 175px;
+    margin-bottom: 230px;
     /* outline: 4px solid blue; */
 }
 
@@ -230,7 +230,7 @@ p {
     color: white;
     font-family: 'Open Sans Condensed', sans-serif;
     /* font-family: 'Playfair Display', serif; */
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     font-weight: 300;
     letter-spacing: 3px;
     line-height: 2rem;
@@ -242,7 +242,7 @@ p {
     display: flex;
     flex-direction: row;
     /* outline: 1px solid blue; */
-    margin: 10px auto;
+    margin: 50px auto 10px auto;
     padding: 80px 50px;
     width: 100%;
     align-content: center;
@@ -261,10 +261,10 @@ p {
 .about-content-p p {
     align-self: center;
     /* outline: 1px solid blue; */
-    width: 100%;
+    width: 90%;
     padding: 20px 20px;
-    font-size: 1.5rem;
-    line-height: 2.3rem;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
     letter-spacing: 1px;
 }
 
@@ -278,8 +278,9 @@ p {
 }
 
 .about-content-photo img {
-    height: 55%;
-    width: 55%;
+    height: 50%;
+    width: 50%;
+    /* outline: 1px solid red; */
 
 }
 
@@ -288,14 +289,14 @@ p {
  /* outline: 1px solid blue; */
     width: 50%;
     height: 75px;
-    margin: 5px auto 40px auto;
+    margin: 5px auto 80px auto;
     padding: 15px;
     text-align: center;
 }
 
 .resume-button a{
     /* outline: 1px solid purple; */
-    font-size: 23px;
+    font-size: 30px;
     width: 100%;
     padding: 12px 20px 12px 20px;
     color: black;
@@ -438,10 +439,13 @@ p {
 .portfolio-content-p p {
     align-self: center;
     /* outline: 1px solid blue; */
-    width: 100%;
+    width: 90%;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+    /* letter-spacing: 1px; */
     padding: 20px 20px;
-    font-size: 1.5rem;
-    line-height: 2.3rem;
+    /* font-size: 1.5rem; */
+    /* line-height: 2.3rem; */
     letter-spacing: 1px;
 }
 
@@ -473,7 +477,7 @@ p {
 .github-button a{
     /* outline: 1px solid purple; */
     width: 100%;
-    font-size: 23px;
+    font-size: 30px;
     padding: 12px 20px 12px 20px;
     color: black;
     border: 1px solid black;
@@ -511,6 +515,7 @@ footer .footer-title {
  text-align: center;
  letter-spacing: 4px;
  font-weight: 500;
+ font-size: 1.3rem;
 }
 
 footer .contact-icon {
@@ -540,14 +545,17 @@ footer .contact-icon div i {
  margin-right: 15px;
  font-size: 1.5rem;
  padding-left: 15px;
+/* outline: 1px solid red; */
 }
+
 footer .contact-icon .resume {
+    font-size: 1.3rem;
     color: rgba(18, 87, 38, 0.6);
     transition: color .2s ease-in-out .1s;
+    /* outline: 1px solid red; */
 }
 
 footer .contact-icon .resume a {
-    font-size: 1rem;
     color: rgba(255, 255, 255, .7);
     transition: color .2s ease-in-out .1s;
 }
@@ -561,11 +569,12 @@ footer .contact-icon .resume a:hover{
 }
 
 footer .contact-icon .email {
+    font-size: 1.3rem;
     color: rgba(151, 25, 13, .6);
     transition: color .2s ease-in-out .1s;
 }
 footer .contact-icon .email a {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: rgba(255, 255, 255, .7);
     transition: color .2s ease-in-out .1s;
 }
@@ -585,7 +594,7 @@ footer .contact-icon .github {
 
 footer .contact-icon .github a {
  color:rgba(255, 255, 255, .7);
- font-size: 1rem;
+ font-size: 1.3rem;
  transition: color .2s ease-in-out .1s;
 }
 
@@ -604,7 +613,7 @@ footer .contact-icon .linkedin {
 
 footer .contact-icon .linkedin a {
  color:rgba(255, 255, 255, .7);
- font-size: 1rem;
+ font-size: 1.3rem;
  transition: color .2s ease-in-out .1s;
 }
 
@@ -660,8 +669,36 @@ footer .footer-p{
  MEDIA QUERIES
 ====================== */
 @media screen and (max-width: 1500px) {
+    .nav-container .title p {
+        font-size:22px;
+    }
+    .nav-container .nav li {
+        font-size: 22px; 
+    }
+
+    .quote-bar p {
+        line-height: 2rem;
+        font-size: 1.15rem;
+    }
+    .resume-button a {
+        font-size: 25px;
+    }
+    .hero-title-content h1 {
+        font-size: 45px;
+    }
+    .hero-title-content .title1 {
+        margin-top: 200px;
+    }
+    
+    .hero-title-content .title3 {
+        margin-bottom: 100px;
+        /* outline: 4px solid blue; */
+    }
+
     .about-content-p p {
-        font-size: 1.3rem;
+        padding: 10px;
+        font-size: 1.4rem;
+        width: 100%;
     }
     .about-content-photo img {
         height: 70%;
@@ -669,7 +706,20 @@ footer .footer-p{
     
     }
     .portfolio-content-p p {
-        font-size: 1.3rem;
+        width: 100%;
+        padding: 10px;
+        font-size: 1.4rem;
+    }
+
+    .portfolio-content-photo img {
+        width: 55%;
+
+    }
+    .github-button a {
+        font-size: 25px;
+    }
+    footer .footer-title {
+        font-size: 1rem;
     }
 
     footer .contact-icon {
@@ -678,39 +728,27 @@ footer .footer-p{
 }
 
 @media screen and (max-width: 1300px) {
-    .nav-container {
-        /* outline: 1px solid blue; */
-        padding-bottom: 40px;
-    }
-
-    .nav-container .nav li {
-        font-size: 1.3rem;
-        padding: 10px 10px;
-
-    }
 
     .sticky .title {
         align-items: center;
     }
     
     .sticky .title p {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         padding-right: 0px;
     }
-
-    .hero-title-content {
-        /* outline: 1px solid red; */
-        margin: 10px 0 50px 0;
+    .sticky .nav li a {
+        font-size: 1.2rem;
     }
 
     .hero-title-content h1 {
         /* outline: 1px solid blue; */
         height: 60px;
         line-height: 50px;
-        font-size: 35px;
+        font-size: 30px;
         padding: 0px;
     }
-
+  
     .hero-title-content .title1 {
         /* outline: 1px solid yellow; */
         margin-top: 255px;
@@ -721,7 +759,7 @@ footer .footer-p{
         padding-left: 300px;
         margin-bottom: 140px;
     }
-
+    
     .quote-bar {
         height: 80px;
     }
@@ -732,12 +770,19 @@ footer .footer-p{
         letter-spacing: .11rem;
     }
 
-    .about-content {
-        padding: 40px 25px 20px 25px;
-    }
-
     .about-content-p p {
-        line-height: 1.7rem;
+        font-size: 1.1rem;
+        line-height: 2.3rem;
+    }
+   
+    .about-content-photo img {
+        height: 70%;
+        width: 70%;
+        /* outline: 13px solid red; */
+    
+    }
+    .resume-button a {
+        font-size: 18px;
     }
     .icon-bar {
         height: 80px;
@@ -747,16 +792,16 @@ footer .footer-p{
         font-size: 35px;
     }
 
-    .portfolio-content {
-        padding: 40px 25px 20px 25px;
-    }
-
     .portfolio-content-p p {
-        line-height: 1.7rem;
+        font-size: 1.1rem;
+        line-height: 2.3rem;
+        /* line-height: 2.5rem; */
+    } 
+    .portfolio-content-photo img {
+        height: 70%;
     }
-
     .github-button a {
-        padding: 10px 16px;
+        font-size: 18px;
     }
 
     footer .footer-title {
@@ -771,25 +816,20 @@ footer .footer-p{
     footer .contact-icon div {
         padding: 3px;
     }
-
+  
     footer .contact-icon .resume a,
     footer .contact-icon .email a,
     footer .contact-icon .github a,
     footer .contact-icon .linkedin a {
-        font-size: .8rem;
+        font-size: 1rem;
     }
 
     .copyright {
         padding: 2px;
     }
 }
-@media screen and (max-width: 1200px) {
-    .about-content-photo img{
-        /* outline: 1px solid red; */
-        width: 75%;
-        height: 75%;
-    }
-}
+
+
 @media screen and (max-width: 1100px) {
     .quote-bar p {
         /* outline: 1px solid red; */
@@ -801,12 +841,16 @@ footer .footer-p{
     }
     .about-content-p p {
         /* outline: 1px solid green; */
+        line-height: 2rem;
         width: 100%;
     }
     .about-content-photo img{
         /* outline: 1px solid red; */
-        width: 85%;
-        height: 85%;
+        width: 80%;
+        height: 80%;
+    }
+    .portfolio-content-p p {
+        line-height: 2rem;
     }
     .portfolio-content-photo img{
         /* outline: 1px solid red; */
@@ -876,7 +920,7 @@ footer .footer-p{
     footer .contact-icon .email a,
     footer .contact-icon .github a,
     footer .contact-icon .linkedin a {
-        font-size: .75rem;
+        font-size: 1rem;
     }
 }
 
@@ -1107,5 +1151,6 @@ footer .footer-p{
     footer .contact-icon .linkedin a {
         font-size: .8rem;
         letter-spacing: 0.05rem;
+        outline: 1px solid red;
     } 
 } 
