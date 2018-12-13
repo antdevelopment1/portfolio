@@ -178,13 +178,13 @@ p {
 
 .hero-title-content .title1 {
     padding-right: 500px;
-    margin-top: 390px;
+    margin-top: 270px;
     /* outline: 4px solid blue; */
 }
 
 .hero-title-content .title3 {
     padding-left: 500px;
-    margin-bottom: 230px;
+    margin-bottom: 200px;
     /* outline: 4px solid blue; */
 }
 
@@ -745,12 +745,12 @@ footer .footer-p{
         /* outline: 1px solid blue; */
         height: 60px;
         line-height: 50px;
-        font-size: 30px;
-        padding: 0px;
+        font-size: 40px;
+        padding: 45px 0;
     }
   
     .hero-title-content .title1 {
-        margin-top: 250px;
+        margin-top: 200px;
     }
     
     .quote-bar {
@@ -823,6 +823,15 @@ footer .footer-p{
 
 
 @media screen and (max-width: 1100px) {
+    .hero-title-content .title1 {
+        /* outline: 1px solid yellow; */
+        /* margin-top: 300px; */
+        padding-right: 0;
+    } 
+
+    .hero-title-content .title3 {
+        padding-left: 0;
+    }
     .quote-bar p {
         /* outline: 1px solid red; */
         line-height: 1.5em;
@@ -1064,6 +1073,13 @@ footer .footer-p{
     }
 }
 @media screen and (max-width: 450px) {
+    .nav-container .nav li {
+        /* outline: 1px solid blue; */
+        /* display: flex; */
+        padding: 13px 10px;
+        letter-spacing: 1.5px;
+        font-size: 20px;
+    }
 
     .about-content-p p {
         /* outline: 1px solid yellow; */
@@ -1092,6 +1108,14 @@ footer .footer-p{
         font-size: 1.1rem;
         padding: 15px 10px;
     }
+    footer .contact-icon .resume a,
+    footer .contact-icon .email a,
+    footer .contact-icon .github a,
+    footer .contact-icon .linkedin a {
+        font-size: .8rem;
+        letter-spacing: 0.04rem;
+        /* outline: 1px solid red; */
+    } 
 }
 
 
@@ -1143,6 +1167,6 @@ footer .footer-p{
     footer .contact-icon .linkedin a {
         font-size: .8rem;
         letter-spacing: 0.05rem;
-        outline: 1px solid red;
+        /* outline: 1px solid red; */
     } 
 } 
