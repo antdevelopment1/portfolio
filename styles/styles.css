@@ -734,20 +734,23 @@ footer .footer-p{
     }
     
     .sticky .title p {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         padding-right: 0px;
+    }
+    .sticky .nav li a {
+        font-size: 1.2rem;
     }
 
     .hero-title-content h1 {
         /* outline: 1px solid blue; */
         height: 60px;
         line-height: 50px;
-        font-size: 35px;
+        font-size: 30px;
         padding: 0px;
     }
   
     .hero-title-content .title1 {
-        margin-top: 300px;
+        margin-top: 250px;
     }
     
     .quote-bar {
@@ -761,14 +764,18 @@ footer .footer-p{
     }
 
     .about-content-p p {
-        line-height: 2.5rem;
+        font-size: 1.1rem;
+        line-height: 2.3rem;
     }
    
     .about-content-photo img {
-        height: 75%;
-        width: 75%;
+        height: 70%;
+        width: 70%;
         /* outline: 13px solid red; */
     
+    }
+    .resume-button a {
+        font-size: 18px;
     }
     .icon-bar {
         height: 80px;
@@ -779,8 +786,16 @@ footer .footer-p{
     }
 
     .portfolio-content-p p {
-        line-height: 2.5rem;
+        font-size: 1.1rem;
+        line-height: 2.3rem;
+        /* line-height: 2.5rem; */
     } 
+    .portfolio-content-photo img {
+        height: 70%;
+    }
+    .github-button a {
+        font-size: 18px;
+    }
 
     footer .footer-title {
         font-size: .8rem;
