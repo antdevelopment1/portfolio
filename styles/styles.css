@@ -875,14 +875,24 @@ footer .footer-p{
         text-align: center;
     }
 
-    .hero-title-content .title1 {
-        /* outline: 1px solid yellow; */
+    /* .hero-title-content .title1 {
+        outline: 1px solid yellow;
         padding-right: 0;
     } 
 
     .hero-title-content .title3 {
         padding-left: 0;
+    } */
+
+    .hero-title-content .title3 {
+        /* margin-bottom: 200px; */
     }
+
+    .hero-title-content {
+        /* outline: 1px solid yellow; */
+        margin: 90px 0 40px 0;
+    }
+    
 
     /* .quote-bar p {
         width: 80%;
