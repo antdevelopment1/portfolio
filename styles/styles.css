@@ -1075,39 +1075,61 @@ footer .footer-p{
         letter-spacing: 1.5px;
         font-size: 20px;
     }
+    .quote-bar {
+        height: 115px;;
+    }
+
+    .quote-bar p {
+        font-size: 1rem;
+    }
 
     .about-content-p p {
-        /* outline: 1px solid yellow; */
-        font-size: 1.2rem;
-        letter-spacing: 1px;
-        line-height: 1.4rem;
+        font-size: 1rem;
+        letter-spacing: 1.3px;
+        line-height: 1.5rem;
     }
-  
+    .about-content-photo {
+        width: 100%;
+    }
+    .about-content-photo img {
+        width: 70%;
+    }
+    
+    .resume-button {
+        margin-bottom: 0px;
+    }
     .resume-button a {
         font-size: 1.2rem;
     }
 
+    .portfolio-content {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
     .portfolio-content-p p {
         /* outline: 1px solid yellow; */
-        font-size: 1.2rem;
-        letter-spacing: 1px;
-        line-height: 1.4rem;
+        font-size: 1rem;
+        letter-spacing: 1.3px;
+        line-height: 1.5rem;
     }
 
     .portfolio-content-photo img{
-        width: 70%;
+        width: 100%;
     }
-
+   
     .github-button a {
         /* outline: 1px solid red; */
         font-size: 1.1rem;
         padding: 15px 10px;
     }
+
+
     footer .contact-icon .resume a,
     footer .contact-icon .email a,
     footer .contact-icon .github a,
     footer .contact-icon .linkedin a {
-        font-size: .8rem;
+        font-size: 1rem;
         letter-spacing: 0.04rem;
         /* outline: 1px solid red; */
     } 
