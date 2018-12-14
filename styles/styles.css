@@ -262,9 +262,9 @@ p {
     align-self: center;
     /* outline: 1px solid blue; */
     width: 90%;
-    padding: 20px 20px;
-    font-size: 1.8rem;
-    line-height: 2.7rem;
+    padding: 20px 0px;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
     letter-spacing: 1px;
 }
 
@@ -278,8 +278,8 @@ p {
 }
 
 .about-content-photo img {
-    height: 50%;
-    width: 50%;
+    height: 59%;
+    width: 59%;
     /* outline: 1px solid red; */
 
 }
@@ -440,13 +440,18 @@ p {
     align-self: center;
     /* outline: 1px solid blue; */
     width: 90%;
-    font-size: 1.8rem;
-    line-height: 2.7rem;
+    /* font-size: 1.8rem; */
+    /* line-height: 2.7rem; */
     /* letter-spacing: 1px; */
-    padding: 20px 20px;
+    /* padding: 20px 20px; */
     /* font-size: 1.5rem; */
     /* line-height: 2.3rem; */
     letter-spacing: 1px;
+
+    padding: 20px 0px;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    /* letter-spacing: 1px; */
 }
 
 .portfolio-content-photo {
@@ -515,7 +520,7 @@ footer .footer-title {
  text-align: center;
  letter-spacing: 4px;
  font-weight: 500;
- font-size: 1.3rem;
+ font-size: 1.1rem;
 }
 
 footer .contact-icon {
@@ -549,7 +554,9 @@ footer .contact-icon div i {
 }
 
 footer .contact-icon .resume {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+    line-height: 1.3rem;
     color: rgba(18, 87, 38, 0.6);
     transition: color .2s ease-in-out .1s;
     /* outline: 1px solid red; */
@@ -569,12 +576,13 @@ footer .contact-icon .resume a:hover{
 }
 
 footer .contact-icon .email {
-    font-size: 1.3rem;
     color: rgba(151, 25, 13, .6);
     transition: color .2s ease-in-out .1s;
 }
 footer .contact-icon .email a {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+    line-height: 1.3rem;
     color: rgba(255, 255, 255, .7);
     transition: color .2s ease-in-out .1s;
 }
@@ -594,7 +602,9 @@ footer .contact-icon .github {
 
 footer .contact-icon .github a {
  color:rgba(255, 255, 255, .7);
- font-size: 1.3rem;
+ font-size: 1.2rem;
+ letter-spacing: 4px;
+ line-height: 1.3rem;
  transition: color .2s ease-in-out .1s;
 }
 
@@ -613,7 +623,9 @@ footer .contact-icon .linkedin {
 
 footer .contact-icon .linkedin a {
  color:rgba(255, 255, 255, .7);
- font-size: 1.3rem;
+ font-size: 1.2rem;
+ letter-spacing: 4px;
+ line-height: 1.3rem;
  transition: color .2s ease-in-out .1s;
 }
 
@@ -724,6 +736,15 @@ footer .footer-p{
 
     footer .contact-icon {
         width: 38%;
+    }
+
+    footer .contact-icon .resume a,
+    footer .contact-icon .email a,
+    footer .contact-icon .github a,
+    footer .contact-icon .linkedin a {
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+        line-height: 1.3rem;
     }
 }
 
@@ -1016,6 +1037,15 @@ footer .footer-p{
     .portfolio-content-photo img{
         width: 60%;
     }
+
+    footer .contact-icon .resume a,
+    footer .contact-icon .email a,
+    footer .contact-icon .github a,
+    footer .contact-icon .linkedin a {
+        font-size: 1rem;
+        letter-spacing: 2px;
+        /* outline: 1px solid red; */
+    } 
  }
 
 @media screen and (max-width: 600px) {
@@ -1066,6 +1096,15 @@ footer .footer-p{
     .portfolio-content-photo img{
         width: 65%;
     }
+
+    footer .contact-icon .resume a,
+    footer .contact-icon .email a,
+    footer .contact-icon .github a,
+    footer .contact-icon .linkedin a {
+        font-size: 1rem;
+        letter-spacing: .11rem;
+        /* outline: 1px solid red; */
+    } 
 }
 @media screen and (max-width: 450px) {
     .nav-container .nav li {
