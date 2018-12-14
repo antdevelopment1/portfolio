@@ -43,7 +43,7 @@ p {
 .hero-section {
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(rgba(0,0,0, .2), rgba(0,0,0,.9)), url(../images/sacredg.jpg);
+    background-image: linear-gradient(rgba(0,0,0, .2), rgba(0,0,0,.9)), url(./../images/sacredg.jpg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -359,7 +359,7 @@ p {
 }
 
 .icon-bar .fa-js {
-    color:rgb(240,224,64, .7);
+    color:rgba(240,224,64, .7);
     transform: scale(1);
     transition: color .2s ease-in-out .1s, transform .2s ease-in-out .1s;
 }
