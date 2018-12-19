@@ -1192,7 +1192,12 @@ footer .footer-p{
     }
 
     .about-content-photo {
-        width: 50%;
+        width: 100%;
+    }
+
+    .about-content-photo img {
+        width: 70%;
+        /* outline: 1px solid red; */
     }
 
     .portfolio-content-p p {
