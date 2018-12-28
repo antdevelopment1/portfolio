@@ -37,6 +37,7 @@ p {
     text-align: justify;
 }
 
+
 /* =====================
  LANDING SECTION
 ====================== */
@@ -465,10 +466,27 @@ p {
 
 .portfolio-content-photo img {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, .7);
-    /* outline: 1px solid blue; */
+    /* outline: 13px solid blue; */
     height: 48%;
     width: 48%;
 }
+.intent-project-pic {
+
+}
+
+.portfolio-content-photo .yum-world-pic {
+       /* outline: 13px solid blue; */
+    height: 58%;
+    width: 58%;
+}
+
+.portfolio-content-photo .typewriter-pic {
+       /* outline: 13px solid blue; */
+    height: 90%;
+    width: 90%;
+}
+
+
 
 .github-button {
     /* outline: 1px solid blue; */
