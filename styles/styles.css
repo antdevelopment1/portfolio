@@ -445,7 +445,7 @@ figcaption {
 }
 
 .icon-bar .fa-python:hover {
-    color: rgba(255, 229, 102, .7);
+    color: rgba(255, 229, 102, 1);
     transform: scale(1.2);
 }
 
@@ -455,7 +455,7 @@ figcaption {
 .portfolio-section {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(rgba(0, 0, 0, .02), rgba(0,0,0,.1));
+    background: linear-gradient(rgba(0, 0, 0, .08), rgba(0,0,0,.02));
     width: 100%;
     height: 100%;
     background-color: rgba(255, 255, 255, .8);
@@ -467,7 +467,7 @@ figcaption {
     justify-content: center;
     /* outline: 1px solid blue; */
     margin: 10px auto;
-    padding: 80px 50px;
+    padding: 50px 50px;
     width: 100%;
     align-content: center;
     align-items: center;
@@ -783,6 +783,10 @@ footer .footer-p{
         width: 70%;
     
     }
+    .project-name {
+        font-size: 2.2rem;
+        /* outline: 1px solid red; */
+    }
     .portfolio-content-p p {
         width: 100%;
         padding: 10px;
@@ -885,14 +889,21 @@ footer .footer-p{
         font-size: 35px;
     }
 
+    .project-name {
+        font-size: 1.9rem;
+        /* outline: 1px solid red; */
+    }
+
     .portfolio-content-p p {
         font-size: 1.1rem;
         line-height: 2.3rem;
         /* line-height: 2.5rem; */
     } 
+
     .portfolio-content-photo img {
         height: 70%;
     }
+    
     .github-button a {
         font-size: 18px;
     }
@@ -967,6 +978,10 @@ footer .footer-p{
         /* outline: 1px solid red; */
         width: 80%;
         height: 80%;
+    }
+    .project-name {
+        font-size: 1.7rem;
+        /* outline: 1px solid red; */
     }
     .portfolio-content-p p {
         line-height: 2rem;
@@ -1194,6 +1209,12 @@ footer .footer-p{
         /* margin: 0; */
     }
 
+    .project-name {
+        width: 100%;
+        font-size: 1.5rem;
+        /* outline: 1px solid red; */
+    }
+
 }
 
 @media screen and (max-width: 550px) {
@@ -1289,6 +1310,12 @@ footer .footer-p{
     }
     .resume-button a {
         font-size: 1.2rem;
+    }
+
+    .project-name {
+
+        font-size: 1.3rem;
+        /* outline: 1px solid red; */
     }
 
     .portfolio-content {
