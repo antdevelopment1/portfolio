@@ -473,6 +473,7 @@ figcaption {
     align-items: center;
 }
 
+
 .portfolio-content-p{
     display: flex;
     flex-direction: column;
@@ -483,22 +484,22 @@ figcaption {
     padding: 10px;
 }
 
+.project-name {
+    font-size: 2.5rem;
+    /* outline: 1px solid red; */
+    align-self: center;
+    text-align: center;
+    width: 90%;
+}
+
 .portfolio-content-p p {
     align-self: center;
     /* outline: 1px solid blue; */
     width: 90%;
-    /* font-size: 1.8rem; */
-    /* line-height: 2.7rem; */
-    /* letter-spacing: 1px; */
-    /* padding: 20px 20px; */
-    /* font-size: 1.5rem; */
-    /* line-height: 2.3rem; */
     letter-spacing: 1px;
-
     padding: 20px 0px;
     font-size: 1.7rem;
     line-height: 2.5rem;
-    /* letter-spacing: 1px; */
 }
 
 .portfolio-content-photo {
@@ -522,8 +523,8 @@ figcaption {
 
 .portfolio-content-photo .yum-world-pic {
        /* outline: 13px solid blue; */
-    height: 58%;
-    width: 58%;
+    height: 78%;
+    width: 78%;
 }
 
 .portfolio-content-photo .typewriter-pic {
