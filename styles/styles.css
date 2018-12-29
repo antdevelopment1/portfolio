@@ -459,6 +459,7 @@ figcaption {
     width: 100%;
     height: 100%;
     background-color: rgba(255, 255, 255, .8);
+    padding-top: 100px;
 }
 
 .portfolio-content {
@@ -467,7 +468,7 @@ figcaption {
     justify-content: center;
     /* outline: 1px solid blue; */
     margin: 10px auto;
-    padding: 50px 50px;
+    padding: 80px 50px;
     width: 100%;
     align-content: center;
     align-items: center;
@@ -497,6 +498,7 @@ figcaption {
     /* outline: 1px solid blue; */
     width: 90%;
     letter-spacing: 1px;
+    margin-bottom: 40px;
     padding: 20px 0px;
     font-size: 1.7rem;
     line-height: 2.5rem;
@@ -514,23 +516,25 @@ figcaption {
 .portfolio-content-photo img {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, .7);
     /* outline: 13px solid blue; */
-    height: 48%;
-    width: 48%;
+    /* height: 48%; */
+    /* width: 48%; */
 }
 .intent-project-pic {
+    height: 45%;
+    width: 45%;
 
 }
 
 .portfolio-content-photo .yum-world-pic {
        /* outline: 13px solid blue; */
-    height: 78%;
-    width: 78%;
+    height: 80%;
+    width: 80%;
 }
 
 .portfolio-content-photo .typewriter-pic {
        /* outline: 13px solid blue; */
-    height: 90%;
-    width: 90%;
+    height: 85%;
+    width: 85%;
 }
 
 
@@ -539,7 +543,7 @@ figcaption {
     /* outline: 1px solid blue; */
     width: 50%;
     height: 75px;
-    margin: 5px auto 40px auto; ;
+    margin: 5px auto 0 auto; ;
     padding: 15px;
     text-align: center;
 }
