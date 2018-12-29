@@ -468,7 +468,7 @@ figcaption {
     justify-content: center;
     /* outline: 1px solid blue; */
     margin: 10px auto;
-    padding: 80px 50px;
+    padding: 40px 50px;
     width: 100%;
     align-content: center;
     align-items: center;
@@ -482,6 +482,7 @@ figcaption {
     align-content: center;
     width: 50%;
     height: 100%;
+    margin-top: 50px;
     padding: 10px;
 }
 
@@ -907,6 +908,18 @@ footer .footer-p{
     .portfolio-content-photo img {
         height: 70%;
     }
+
+    .portfolio-content-photo .yum-world-pic {
+        /* outline: 13px solid blue; */
+     height: 100%;
+     width: 100%;
+    }
+ 
+    .portfolio-content-photo .typewriter-pic {
+            /* outline: 13px solid blue; */
+        height: 100%;
+        width: 100%;
+    }
     
     .github-button a {
         font-size: 18px;
@@ -1091,6 +1104,23 @@ footer .footer-p{
         font-size: 25px;
     }
 
+    .portfolio-content-photo {
+        width: 100%;
+        padding: 0;
+    }
+
+    .portfolio-content-photo .yum-world-pic {
+        /* outline: 13px solid blue; */
+        height: 85%;
+        width: 85%;
+    }
+ 
+    .portfolio-content-photo .typewriter-pic {
+            /* outline: 13px solid blue; */
+        height: 85%;
+        width: 85%;
+    }
+
     .portfolio-content {
         flex-direction: column;
     }
@@ -1245,6 +1275,18 @@ footer .footer-p{
     .icon-bar {
         height: 70px;
     }
+
+    .portfolio-content-photo .yum-world-pic {
+        /* outline: 13px solid blue; */
+        height: 100%;
+        width: 100%;
+    }
+ 
+    .portfolio-content-photo .typewriter-pic {
+            /* outline: 13px solid blue; */
+        height: 100%;
+        width: 100%;
+    }
     
     .portfolio-content-p {
         width: 100%;
@@ -1320,6 +1362,18 @@ footer .footer-p{
 
         font-size: 1.3rem;
         /* outline: 1px solid red; */
+    }
+
+    .portfolio-content-photo .yum-world-pic {
+        /* outline: 13px solid blue; */
+     height: 100%;
+     width: 100%;
+    }
+ 
+    .portfolio-content-photo .typewriter-pic {
+            /* outline: 13px solid blue; */
+        height: 100%;
+        width: 100%;
     }
 
     .portfolio-content {
