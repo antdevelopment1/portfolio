@@ -22,7 +22,7 @@ This website portfolio displays several projects I have built and contributed to
 </p>
 <br>
 <br>
-<p>Here are some of the projects I have built and contributed to over the last few months.</p>
+### Here are some of the projects I have built and contributed to over the last few months
 <p>Intent Manifesto is a place for user to actualize their dreams into reality.</p>
 <p align='center'>
     <img src='readme/images/project1.png'></img>
