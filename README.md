@@ -31,7 +31,7 @@ This website portfolio displays several projects I have built and contributed to
 </p>
 <p>yumWorld is a React food applications for international enthusiasts looking to mix up their normal food choices by cooking food recipes from around the world.</p>
 <p align='center'>
-    <img src='readme/images/project2.png'></img>
+    <img src='readme/images/yumworld.png'></img>
 </p>
 <p>Speed TypeWriter Test App is a front end redesign of an online course. This project was converted from bootstrap to CSS Flexbox.</p>
 <p align='center'>
@@ -39,7 +39,7 @@ This website portfolio displays several projects I have built and contributed to
 </p>
 <p>For more information, I've included is a list of my current contact infornmation. Feel free to reach out with any questions and suggestions.</p>
 <p align='center'>
-    <img src='readme/images/project3.png'></img>
+    <img src='readme/images/contact-section.png'></img>
 </p>
 
 
@@ -108,6 +108,7 @@ This website portfolio displays several projects I have built and contributed to
 <p>The about section features a simple layout using CSS Flexbox to display the image and text in a row. The button in the container will take you to view my resume in a new tab. The button featues a simple color transition on hover.</p>
 
 <p>Simple flex direction display on default to row</p>
+
 ```
 .about-content {
     display: flex;
