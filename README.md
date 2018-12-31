@@ -1,6 +1,15 @@
-# April Copes Portfolio
----
+# April Copes Fullstack JavaScript Developer Portfolio Website
 ## [Live Website](http://aprilcopes.com)
+---
+
+## What Is This Project About
+This website portfolio displays several projects I have built and contributed to recently.
+
+## Languages used
+* HTML
+* CSS / Flexbox
+* Vanilla JavaScript
+* jQuery
 
 <img src="readme/images/landing.png" width="450">
 <img src="readme/images/about.png" width="450">
