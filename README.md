@@ -104,6 +104,58 @@ This website portfolio displays several projects I have built and contributed to
 }
 ```
 
+### About Section Features
+<p>The about section features a simple layout using CSS Flexbox to display the image and text in a row. The button in the container will take you to view my resume in a new tab. The button featues a simple color transition on hover.</p>
+
+<p>Simple flex direction display on default to row</p>
+```
+.about-content {
+    display: flex;
+    /* outline: 1px solid blue; */
+    margin: 50px auto 10px auto;
+    padding: 80px 50px;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+}
+```
+
+<p>Button transition on hover</p>
+
+```
+.resume-button {
+ /* outline: 1px solid blue; */
+    width: 50%;
+    height: 75px;
+    margin: 5px auto 80px auto;
+    padding: 15px;
+    text-align: center;
+}
+
+.resume-button a{
+    /* outline: 1px solid purple; */
+    font-size: 30px;
+    width: 100%;
+    padding: 12px 20px 12px 20px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 2px;
+    transition: background-color .2s ease-in-out .1s, color .2s ease-in-out .1s;
+}
+```
+
+<p>Open resume in a new tab</p>
+
+```
+<div class="resume-button">
+    <a href="images/FinalResume.pdf" target="_blank">View Resume</a>
+</div>
+```
+
+### Portfolio Section Features
+
+### Contact Section Features
+
 
 ## Built By April Copes and Lauren Wilkerson
 All design layouts are original layout ideas. No libraries or frameworks were used for layout design. Layouts were built in pure HTML and CSS.
