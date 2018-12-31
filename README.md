@@ -23,7 +23,7 @@ This website portfolio displays several projects I have built and contributed to
 <br>
 <br>
 
-## Here are some of the projects I have built and contributed to over the last few months
+### Here are some of the projects I have built and contributed to over the last few months.
 
 <p>Intent Manifesto is a place for user to actualize their dreams into reality.</p>
 <p align='center'>
@@ -44,6 +44,65 @@ This website portfolio displays several projects I have built and contributed to
 
 
 ## Code Walkthrough / Featues
+
+### Landing Page Features
+<p>The landing page header and hero section fades in using css animations. Each link on the navbar has a transition on hover with opacity of the text becoming slightly dimmer. Upon clicking each link the page takes the user to the corresponding section. The background images stays fixed to create a scroll effect.</p>
+
+<p>CDN used for css animations</p>
+
+```
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Portfolio</title>
+</head>
+```
+
+<p>CSS transitions for nav elements on hover</p>
+
+```
+.nav-container .nav li {
+    /* outline: 1px solid blue; */
+    /* display: flex; */
+    padding: 13px 30px;
+    letter-spacing: 1.5px;
+    font-size: 25px;
+}
+
+.nav-container .nav li a {
+    /* outline: 1px solid blue; */
+    padding-bottom: 5px;
+    transition: border-bottom .3s ease-out .2s, opacity .3s ease-in-out .3s;
+    opacity: .8;
+}
+
+.nav-container .nav li a:hover,
+.sitcky .nav li a:hover {
+    border-bottom: 1px solid white;
+    opacity: .6;
+}
+```
+
+<p>Fixed background for background image in landing page</p>
+
+```
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0,0,0, .2), rgba(0,0,0,.9)), url(./../images/sacredg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    /* min-height: 100%; */
+    justify-content: center;
+    /* outline: 2px solid blue; */
+}
+```
 
 
 ## Built By April Copes and Lauren Wilkerson
