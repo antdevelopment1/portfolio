@@ -1,4 +1,4 @@
-# April Copes Fullstack JavaScript Developer Portfolio Website
+# April Copes | Fullstack JavaScript Developer | Portfolio Website
 ## [Live Website](http://aprilcopes.com)
 ---
 
