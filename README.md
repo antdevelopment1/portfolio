@@ -1,9 +1,9 @@
-# April Copes | Fullstack JavaScript Developer | Portfolio Website
+# April Copes | Portfolio Website
 ## [Live Website](http://aprilcopes.com)
 ---
 
 ## What Is This Project About
-This website portfolio displays several projects I have built and contributed to recently.
+This website portfolio displays several projects I have built and contributed to most recently.
 
 ## Languages used
 * HTML
