@@ -153,7 +153,89 @@ This website portfolio displays several projects I have built and contributed to
 </div>
 ```
 
-### Portfolio Section Features
+### About Section Features
+<p>The portfolio section features an technology bar with various technologies I have gained experience using and working with. The icons have a simple scale and color transition. The background also featues the same fixed image from the hero section. The projects images have a box shadow on the images to add depth, a small description of the project, and a button with a color transition that takes you directly to the github repo for that project. Each image uses CSS animations to fade or slide in while the jQuery controls the timing of when the effect occurs based on pixel offsets.</p>
+
+<p>Technology bar with fixed background image, scale, and transition on hover as well as image captions.</p>
+
+```
+.icon-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 130px;
+    background-image: linear-gradient(rgba(0,0,0, .8), rgba(0,0,0,.8)), url(./../images/sacredg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    /* outline: 1px solid red; */
+}
+
+
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 100%; */
+}
+
+figcaption {
+    color: rgba(255, 255, 255, .9);
+    font-size: 17px;
+    letter-spacing: 1px;
+    width: 100%;
+    margin-top: 3px;
+    padding: 5px;
+    /* outline: 1px solid red; */
+    text-align: center;
+}
+
+.icon-bar figure i {
+    margin:auto 0;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    /* outline: 1px solid red; */
+}
+
+.icon-bar .fa-html5 {
+    color: rgba(255,85,0, .7);
+    transform: scale(1);
+    transition: color .2s ease-in-out .1s, transform .2s ease-in-out .1s;
+    /* outline: 1px solid green; */
+}
+
+.icon-bar .fa-html5:hover {
+    color: rgba(255,85,0, 1);
+    transform: scale(1.2);
+}
+```
+
+<p>JavaScript waypoints animations class assingment</p>
+
+```
+    $('.js--wp-1').waypoint(function(direction) {
+        $('.js--wp-1').addClass('animated fadeIn');
+    },{
+        offset:'50%'
+    });
+     $('.js--wp-2').waypoint(function(direction) {
+        $('.js--wp-2').addClass('animated fadeIn');
+    },{
+        offset:'1%'
+    });
+     $('.js--wp-3').waypoint(function(direction) {
+        $('.js--wp-3').addClass('animated slideInUp');
+    },{
+        offset:'50%'
+    });
+    $('.js--wp-4').waypoint(function(direction) {
+        $('.js--wp-4').addClass('animated fadeInLeft');
+    },{
+        offset:'50%'
+    });
+```
 
 ### Contact Section Features
 
