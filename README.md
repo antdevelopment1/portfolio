@@ -239,7 +239,31 @@ figcaption {
 
 ### Contact Section Features
 
+<p>The contact section featues alternating transisions from the font icon to the link and opens to a new tab when clicked.</p>
 
-## Built By April Copes and Lauren Wilkerson
+```
+    footer .contact-icon .email {
+    color: rgba(151, 25, 13, .6);
+    transition: color .2s ease-in-out .1s;
+}
+footer .contact-icon .email a {
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+    line-height: 1.3rem;
+    color: rgba(255, 255, 255, .7);
+    transition: color .2s ease-in-out .1s;
+}
+
+footer .contact-icon .email:hover {
+ color: rgb(151, 25, 13)
+}
+
+footer .contact-icon .email a:hover{
+ color: rgb(151, 25, 13);
+}
+```
+
+
+### Built By April Copes and Lauren Wilkerson
 All design layouts are original layout ideas. No libraries or frameworks were used for layout design. Layouts were built in pure HTML and CSS.
 
