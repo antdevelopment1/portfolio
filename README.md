@@ -1,6 +1,6 @@
 # April Copes Portfolio
 ---
-## [Live Website] (http://aprilcopes.com)
+## [Live Website](http://aprilcopes.com)
 
 <img src="readme/images/landing.png" width="450">
 <img src="readme/images/about.png" width="450">
