@@ -153,7 +153,7 @@ This website portfolio displays several projects I have built and contributed to
 </div>
 ```
 
-### About Section Features
+### Portfolio Section Features
 <p>The portfolio section features an technology bar with various technologies I have gained experience using and working with. The icons have a simple scale and color transition. The background also features the same fixed image from the hero section. The project's images have a box shadow on the images to add depth, a small description of the project, and a button with a color transition that takes you directly to the GitHub repo for that project. Each image uses CSS animations to fade or slide in while the jQuery controls the timing of when the effect occurs based on pixel offsets.</p>
 
 <p>Technology bar with fixed background image, scale, and transition on hover as well as image captions.</p>
