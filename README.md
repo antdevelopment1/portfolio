@@ -12,7 +12,7 @@ This website portfolio displays several projects I have built and contributed to
 * jQuery
 
 ## Site Walkthrough
-<p>This is the landing page. In the background you will see am image of some of my favorites types of patterns called sacred geometry.</p>
+<p>This is the landing page. In the background, you will see an image of some of my favorites types of patterns called sacred geometry.</p>
 <p align='center'>
     <img src='readme/images/landing-page.png'></img>
 </p>
@@ -46,7 +46,7 @@ This website portfolio displays several projects I have built and contributed to
 ## Code Walkthrough / Featues
 
 ### Landing Page Features
-<p>The landing page header and hero section fades in using css animations. Each link on the navbar has a transition on hover with opacity of the text becoming slightly dimmer. Upon clicking each link the page takes the user to the corresponding section. The background images stays fixed to create a scroll effect.</p>
+<p>The landing page header and hero section fade in using CSS animations. Each link on the navbar has a transition on hover with the opacity of the text becoming slightly dimmer. Upon clicking each link the page takes the user to the corresponding section. The background images stay fixed to create a scroll effect.</p>
 
 <p>CDN used for css animations</p>
 
@@ -105,7 +105,7 @@ This website portfolio displays several projects I have built and contributed to
 ```
 
 ### About Section Features
-<p>The about section features a simple layout using CSS Flexbox to display the image and text in a row. The button in the container will take you to view my resume in a new tab. The button featues a simple color transition on hover.</p>
+<p>The about section features a simple layout using CSS Flexbox to display the image and text in a row. The button in the container will take you to view my resume in a new tab. The button features a simple color transition on hover.</p>
 
 <p>Simple flex direction display on default to row</p>
 
@@ -154,7 +154,7 @@ This website portfolio displays several projects I have built and contributed to
 ```
 
 ### About Section Features
-<p>The portfolio section features an technology bar with various technologies I have gained experience using and working with. The icons have a simple scale and color transition. The background also featues the same fixed image from the hero section. The projects images have a box shadow on the images to add depth, a small description of the project, and a button with a color transition that takes you directly to the github repo for that project. Each image uses CSS animations to fade or slide in while the jQuery controls the timing of when the effect occurs based on pixel offsets.</p>
+<p>The portfolio section features an technology bar with various technologies I have gained experience using and working with. The icons have a simple scale and color transition. The background also features the same fixed image from the hero section. The project's images have a box shadow on the images to add depth, a small description of the project, and a button with a color transition that takes you directly to the GitHub repo for that project. Each image uses CSS animations to fade or slide in while the jQuery controls the timing of when the effect occurs based on pixel offsets.</p>
 
 <p>Technology bar with fixed background image, scale, and transition on hover as well as image captions.</p>
 
