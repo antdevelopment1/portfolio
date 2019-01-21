@@ -25,10 +25,18 @@ This website portfolio displays several projects I have built and contributed to
 
 ### Here are some of the projects I have built and contributed to over the last few months.
 <p>The Pseduo Secure Initiative is a sensor I designed and built using Arduino, C++, Nodejs, PostgreSQL, JavScript, HTML, and CSS for my final project while attending DigitalCrafts.The goal is to lower the cost of installation fees associated with wiring harnesses, making the sensor portable in vehicles; aiming to create a temporary, inexpensive solution for those in need of a more affordable alternative.</p>
+<br>
+
+<p>Landing Page of The Pseudo Secure Initiative Site</p>
 <p align='center'>
-    <img src='readme/images/landing-page.png'></img>
+    <img src='readme/images/landingPage.png'></img>
+</p>
+
+<p>Arduino Alarm Sensor</p>
+<p align='center'>
     <img src='readme/images/allAbove.jpg'></img>
 </p>
+
 <p>Intent Manifesto is a place for user to actualize their dreams into reality.</p>
 <p align='center'>
     <img src='readme/images/project1.png'></img>
