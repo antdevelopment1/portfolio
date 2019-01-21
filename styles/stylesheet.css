@@ -1,0 +1,1563 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+/* font-family: 'Playfair Display', serif; */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+/* font-family: 'Open Sans Condensed', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans Condensed', sans-serif; 
+}
+
+/* =====================
+ BASIC STYLES
+====================== */
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+p {
+    text-align: justify;
+}
+
+
+/* =====================
+ LANDING SECTION
+====================== */
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgba(0,0,0, .2), rgba(0,0,0,.9)), url(./../images/sacredg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    /* min-height: 100%; */
+    justify-content: center;
+    /* outline: 2px solid blue; */
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    height: 75px;
+    width: 100%;
+    /* padding: 35px 35px 0px 35px; */
+    /* outline: 1px solid red; */
+}
+
+.nav-container .nav{
+    display: flex;
+    height: 68px;
+    flex-basis: 50%;
+    justify-content: flex-end;
+    align-content: center;
+    padding-right: 15px;
+    /* outline: 2px solid green; */
+    /* margin-bottom: 180px; */
+}
+
+.nav-container .title {
+    display: flex;
+    justify-content: flex-start;
+    flex-basis: 50%;
+    height: 68px;
+    color: white;
+    /* outline: 2px solid yellow; */
+}
+
+.nav-container .title p {
+    align-self: center;
+    font-size: 25px;
+    padding: 13px 0 13px 35px;
+    letter-spacing: 1.9px;
+}
+
+.nav-container .nav li {
+    /* outline: 1px solid blue; */
+    /* display: flex; */
+    padding: 13px 30px;
+    letter-spacing: 1.5px;
+    font-size: 25px;
+}
+
+.nav-container .nav li a {
+    /* outline: 1px solid blue; */
+    padding-bottom: 5px;
+    transition: border-bottom .3s ease-out .2s, opacity .3s ease-in-out .3s;
+    opacity: .8;
+}
+
+.nav-container .nav li a:hover,
+.sitcky .nav li a:hover {
+    border-bottom: 1px solid white;
+    opacity: .6;
+}
+
+.nav-container .nav li a:focus,
+.sticky .nav li a:focus {
+    opacity: .6;
+    border-bottom: 1px solid white;
+}
+
+ .sticky {
+    display: flex;
+    position: fixed;
+    align-content: center;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    top: 0;
+    left: 0;
+    z-index: 1;
+    /* outline: 1px solid purple; */
+    
+} 
+
+.sticky .nav li{
+    align-self: center;
+}
+
+.sticky .nav li a{
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 5px;
+    transition: border-bottom .3s ease-out .2s, opacity .3s ease-in-out .3s;
+    opacity: .8;
+      /* outline: 1px solid yellow; */
+} 
+
+.sticky .nav li a:focus {
+    opacity: .6;
+    border-bottom: 1px solid white;
+}
+
+.hero-title-content {
+    /* outline: 3px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 40px 0 200px 0;
+    width: 100%;
+    color: rgba(255, 255, 255, .8);
+}
+
+.hero-title-content h1 {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 7.5px;
+    line-height: 80px;
+    font-size: 55px;
+    font-weight: 300;
+    height: 100px;
+    width: 100%;
+    padding-top: 60px;
+    text-shadow: 3px 3px 3px rgba(0,0,0, .4);
+    transition: text-shadow .2s ease-in-out .1s;
+    /* outline: 7px solid green; */
+}
+
+.hero-title-content h1:hover {
+    text-shadow: 4px 4px 4px rgba(0,0,0, .6);
+}
+
+.hero-title-content .title1 {
+    padding-right: 500px;
+    margin-top: 270px;
+    /* outline: 4px solid blue; */
+}
+
+.hero-title-content .title3 {
+    padding-left: 500px;
+    margin-bottom: 200px;
+    /* outline: 4px solid blue; */
+}
+
+ /* animation */
+.nav-container, .hero-title-content {
+    animation: 1s fadein 0.4s forwards;
+    opacity: 0;
+}
+
+@keyframes fadein {
+    100% {
+        opacity: 1;
+    }
+}
+
+/* =====================
+ ABOUT SECTION
+====================== */
+.about-section {
+    display: flex;
+    justify-content: flex-start;
+    background: linear-gradient(rgba(0, 0, 0, .02), rgba(0,0,0,.1));
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.quote-bar {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    /* outline: 1px solid red; */
+    height: 115px;
+    width: 100%;
+    background-color: black;
+}
+
+.quote-bar p {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    /* font-family: 'Playfair Display', serif; */
+    font-size: 1.4rem;
+    font-weight: 300;
+    letter-spacing: 3px;
+    line-height: 2rem;
+    text-align: center;
+    /* outline: 1px solid green; */
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    /* outline: 1px solid blue; */
+    margin: 50px auto 10px auto;
+    padding: 80px 50px;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+}
+
+.about-content-p{
+    display: flex;
+    flex-direction: column;
+    /* outline: 1px solid red; */
+    align-content: center;
+    width: 50%;
+    height: 100%;
+    padding: 10px;
+}
+.about-content-p p {
+    align-self: center;
+    /* outline: 1px solid blue; */
+    width: 90%;
+    padding: 20px 0px;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    letter-spacing: 1px;
+}
+
+.about-content-photo {
+    display: flex;
+    justify-content: center;
+    /* outline: 1px solid green; */
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+}
+
+.about-content-photo img {
+    height: 59%;
+    width: 59%;
+    /* outline: 1px solid red; */
+
+}
+
+
+.resume-button {
+ /* outline: 1px solid blue; */
+    width: 50%;
+    height: 75px;
+    margin: 5px auto 80px auto;
+    padding: 15px;
+    text-align: center;
+}
+
+.resume-button a{
+    /* outline: 1px solid purple; */
+    font-size: 30px;
+    width: 100%;
+    padding: 12px 20px 12px 20px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 2px;
+    /* box-shadow: 4px 4px 4px black; */
+    transition: background-color .2s ease-in-out .1s, color .2s ease-in-out .1s;
+}
+
+.resume-button a:hover{
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+}
+
+.shim {
+    color: white;
+}
+
+
+.icon-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 130px;
+    background-image: linear-gradient(rgba(0,0,0, .8), rgba(0,0,0,.8)), url(./../images/sacredg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    /* outline: 1px solid red; */
+}
+
+
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 100%; */
+}
+
+figcaption {
+    color: rgba(255, 255, 255, .9);
+    font-size: 17px;
+    letter-spacing: 1px;
+    width: 100%;
+    margin-top: 3px;
+    padding: 5px;
+    /* outline: 1px solid red; */
+    text-align: center;
+}
+
+.icon-bar figure i {
+    margin:auto 0;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    /* outline: 1px solid red; */
+}
+
+.icon-bar .fa-html5 {
+    color: rgba(255,85,0, .7);
+    transform: scale(1);
+    transition: color .2s ease-in-out .1s, transform .2s ease-in-out .1s;
+    /* outline: 1px solid green; */
+}
+
+.icon-bar .fa-html5:hover {
+    color: rgba(255,85,0, 1);
+    transform: scale(1.2);
+}
+
+.icon-bar .fa-css3-alt {
+    color: rgba(0,169,224, .7);
+    transform: scale(1);
+    transition: color .2s ease-in-out .1s, transform .2s ease-in-out .1s;
+}
+
+
+.icon-bar .fa-css3-alt:hover {
+    color: rgba(0,169,224, 1);
+    transform: scale(1.2);
+}
+
+.icon-bar .fa-js {
+    color:rgba(240,224,64, .7);
+    transform: scale(1);
+    transition: color .2s ease-in-out .1s, transform .2s ease-in-out .1s;
+}
+
+.icon-bar .fa-js:hover {
+    color: rgba(240,224,64, 1); 
+    transform: scale(1.2);
+}
+
+.icon-bar figure .fa-node {
+    color: rgba(74,165,101, .7);
+    transform: scale(1);
+    transition: color .2s ease-in-out .1s, transform .2s ease-in-out .1s;
+}
+
+.icon-bar .fa-node:hover {
+    color: rgba(74,165,101, 1);
+    transform: scale(1.2);
+}
+
+.icon-bar .fa-database {
+    color: rgba(228, 133, 204, .7);
+    transform: scale(1);
+    transition: color .2s ease-in-out .1s, transform .2s ease-in-out .1s;
+}
+
+.icon-bar .fa-database:hover {
+    color: rgba(228, 133, 204, 1);
+    transform: scale(1.2);
+}
+
+.icon-bar .fa-react {
+    color: rgba(0,221,255, .7);
+    transform: scale(1);
+    transition: color .2s ease-in-out .1s, transform .2s ease-in-out .1s;
+}
+
+.icon-bar .fa-react:hover {
+    color: rgba(0,221,255, 1);
+    transform: scale(1.2);
+}
+
+.icon-bar .fa-github {
+    color: rgba(178, 187, 189, 0.7);
+    transform: scale(1);
+    transition: color .2s ease-in-out .1s, transform .2s ease-in-out .1s;
+}
+
+.icon-bar .fa-github:hover {
+    color: rgba(178, 187, 189, 1);
+    transform: scale(1.2);
+}
+
+.icon-bar .fa-python {
+    /* color: #00c3ff;  fallback for old browsers */
+    color: rgba(255, 229, 102, .7);
+    transform: scale(1);
+    transition: color .2s ease-in-out .1s, transform .2s ease-in-out .1s;
+}
+
+.icon-bar .fa-python:hover {
+    color: rgba(255, 229, 102, 1);
+    transform: scale(1.2);
+}
+
+/* =====================
+ PORTFOLIO SECTION
+====================== */
+.portfolio-section {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, .08), rgba(0,0,0,.02));
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.portfolio-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* outline: 1px solid blue; */
+    margin: 0 auto;
+    padding: 6rem 50px 2rem;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+}
+
+
+.portfolio-content-p{
+    display: flex;
+    flex-direction: column;
+    /* outline: 1px solid red; */
+    align-content: center;
+    width: 50%;
+    height: 100%;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.project-name {
+    font-size: 2.5rem;
+    /* outline: 1px solid red; */
+    align-self: center;
+    text-align: center;
+    width: 90%;
+}
+
+.portfolio-content-p p {
+    align-self: center;
+    /* outline: 1px solid blue; */
+    width: 90%;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    padding: 20px 0px;
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+}
+
+.portfolio-content-photo {
+    display: flex;
+    justify-content: center;
+    /* outline: 1px solid green; */
+    width: 50%;
+    height: 100%;
+    padding: 30px;
+}
+
+.portfolio-content-photo img {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .7);
+    /* outline: 13px solid blue; */
+    /* height: 48%; */
+    /* width: 48%; */
+}
+.intent-project-pic {
+    height: 45%;
+    width: 45%;
+
+}
+
+.portfolio-content-photo .yum-world-pic {
+       /* outline: 13px solid blue; */
+    height: 80%;
+    width: 80%;
+}
+
+.portfolio-content-photo .typewriter-pic {
+       /* outline: 13px solid blue; */
+    height: 85%;
+    width: 85%;
+}
+ 
+.arduino {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-content .arduino {
+    /* outline: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+}
+
+.pseudo-pic {
+    height: 65%;
+    width: 65%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0;
+}
+
+
+
+
+
+.github-button {
+    /* outline: 1px solid blue; */
+    width: 50%;
+    height: 75px;
+    margin: 5px auto 0 auto; ;
+    padding: 15px;
+    text-align: center;
+}
+
+.github-button a{
+    /* outline: 1px solid purple; */
+    width: 100%;
+    font-size: 30px;
+    padding: 12px 20px 12px 20px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 2px;
+    /* box-shadow: 4px 4px 4px black; */
+    transition: background-color .2s ease-in-out .1s, color .2s ease-in-out .1s;
+}
+
+.github-button a:hover{
+    background-color: black;
+    color:white;
+}
+
+/* =====================
+ FOOTER SECTION
+====================== */
+footer {
+ display: flex;
+ flex-direction: column;
+ /* justify-content: center; */
+ /* align-content: center; */
+ width: 100%;
+ height: 100%;
+ padding-top: 10px;
+
+ background-color: black;
+ font-family: 'Open Sans Condensed', sans-serif;
+}
+
+footer .footer-title {
+ /* outline: 1px solid blue; */
+ color: rgba(255, 255, 255, .8);
+ text-align: center;
+ padding-bottom: 5px;
+ text-align: center;
+ letter-spacing: 4px;
+ font-weight: 500;
+ font-size: 1.1rem;
+}
+
+footer .contact-icon {
+ display: flex;
+ flex-direction: column;
+ height: 100%;
+ width: 100%;
+ margin: 0 auto;
+ justify-content: center;
+ padding: auto;
+ /* outline: 1px solid green; */
+}
+
+footer .contact-icon div {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ /* outline: 1px solid blue; */
+ width: 100%;
+ align-content: center;
+ align-items: center;
+ /* padding: 7px 0; */
+ letter-spacing: 2px;
+}
+
+footer .contact-icon div i {
+ margin-right: 15px;
+ font-size: 1.5rem;
+ padding-left: 15px;
+/* outline: 1px solid red; */
+}
+
+footer .contact-icon .resume {
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+    line-height: 1.3rem;
+    color: rgba(18, 87, 38, 0.6);
+    transition: color .2s ease-in-out .1s;
+    /* outline: 1px solid red; */
+}
+
+footer .contact-icon .resume a {
+    color: rgba(255, 255, 255, .7);
+    transition: color .2s ease-in-out .1s;
+}
+   
+footer .contact-icon .resume:hover {
+    color: rgb(18,87,38);
+}
+   
+footer .contact-icon .resume a:hover{
+    color: rgb(18,87,38);
+}
+
+footer .contact-icon .email {
+    color: rgba(151, 25, 13, .6);
+    transition: color .2s ease-in-out .1s;
+}
+footer .contact-icon .email a {
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+    line-height: 1.3rem;
+    color: rgba(255, 255, 255, .7);
+    transition: color .2s ease-in-out .1s;
+}
+
+footer .contact-icon .email:hover {
+ color: rgb(151, 25, 13)
+}
+
+footer .contact-icon .email a:hover{
+ color: rgb(151, 25, 13);
+}
+
+footer .contact-icon .github {
+ color: rgba(78, 52, 117, .6);
+ transition: color .2s ease-in-out .1s;
+}
+
+footer .contact-icon .github a {
+ color:rgba(255, 255, 255, .7);
+ font-size: 1.2rem;
+ letter-spacing: 4px;
+ line-height: 1.3rem;
+ transition: color .2s ease-in-out .1s;
+}
+
+footer .contact-icon .github:hover {
+ color: rgba(78, 52, 117, 1);
+}
+
+footer .contact-icon .github a:hover {
+ color: rgba(78, 52, 117, 1);
+}
+
+footer .contact-icon .linkedin {
+ color: rgba(0, 88, 139, .6);
+ transition: color .2s ease-in-out .1s;
+}
+
+footer .contact-icon .linkedin a {
+ color:rgba(255, 255, 255, .7);
+ font-size: 1.2rem;
+ letter-spacing: 4px;
+ line-height: 1.3rem;
+ transition: color .2s ease-in-out .1s;
+}
+
+footer .contact-icon .linkedin:hover {
+ color: rgba(0, 88, 139, 1);
+}
+
+footer .contact-icon .linkedin a:hover {
+ color: rgba(0, 88, 139, 1);
+}
+
+footer .footer-p{
+ /* outline: 1px solid red; */
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-content: center;
+ align-items: center;
+ height: 100%;
+ width: 100%;
+ padding: 10px 0;
+ color: white;
+}
+
+.copyright {
+ justify-content: center;
+ font-size: .9em;
+ color: rgba(255, 255, 255, .5);
+ font-weight: 100;
+ padding: 5px;
+ letter-spacing: 2px;
+ /* outline: 1px solid red; */
+}
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3
+{
+    opacity:0;
+    animation-duration: 1s;
+}
+.js--wp4{
+    animation-duration: 2s;
+}
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated{
+    opacity:1;
+}
+
+
+/* =====================
+ MEDIA QUERIES
+====================== */
+@media screen and (max-width: 1500px) {
+    .nav-container .title p {
+        font-size:22px;
+    }
+    .nav-container .nav li {
+        font-size: 22px; 
+    }
+
+    .quote-bar p {
+        line-height: 2rem;
+        /* outline: 1px solid red; */
+        font-size: 1.3rem;
+    }
+
+    .resume-button a {
+        font-size: 25px;
+    }
+
+    .hero-title-content h1 {
+        font-size: 45px;
+    }
+
+    .hero-title-content .title1 {
+        margin-top: 200px;
+    }
+    
+    .hero-title-content .title3 {
+        margin-bottom: 100px;
+        /* outline: 4px solid blue; */
+    }
+
+    .about-content-p p {
+        padding: 10px;
+        font-size: 1.4rem;
+        width: 100%;
+    }
+
+    .about-content-photo img {
+        height: 70%;
+        width: 70%;
+    
+    }
+
+  
+    .portfolio-content-photo .pseudo-pic {
+        height: 70%;
+        width: 70%;
+        padding: 0;
+    }
+    
+
+    .project-name {
+        font-size: 2.2rem;
+        /* outline: 1px solid red; */
+    }
+
+    .portfolio-content-p p {
+        width: 100%;
+        padding: 10px;
+        font-size: 1.4rem;
+    }
+
+    .portfolio-content-photo img {
+        width: 55%;
+
+    }
+
+    .github-button a {
+        font-size: 25px;
+    }
+
+    footer .footer-title {
+        font-size: 1rem;
+    }
+
+    footer .contact-icon {
+        width: 38%;
+    }
+
+    footer .contact-icon .resume a,
+    footer .contact-icon .email a,
+    footer .contact-icon .github a,
+    footer .contact-icon .linkedin a {
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+        line-height: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+    .sticky .title {
+        align-items: center;
+    }
+    
+    .sticky .title p {
+        font-size: 1.2rem;
+        padding-right: 0px;
+    }
+    .sticky .nav li a {
+        font-size: 1.2rem;
+    }
+
+    .hero-title-content h1 {
+        /* outline: 1px solid blue; */
+        height: 60px;
+        line-height: 50px;
+        font-size: 40px;
+        padding: 45px 0;
+    }
+  
+    .hero-title-content .title1 {
+        margin-top: 200px;
+    }
+    
+    .quote-bar {
+        height: 80px;
+    }
+
+    .quote-bar p {
+        line-height: 1.8rem;
+        /* outline: 1px solid red; */
+        font-size: 1.2rem;
+    }
+
+    .about-content-p p {
+        font-size: 1.1rem;
+        line-height: 2.3rem;
+    }
+   
+    .about-content-photo img {
+        height: 70%;
+        width: 70%;
+        /* outline: 13px solid red; */
+    
+    }
+    .resume-button a {
+        font-size: 18px;
+    }
+
+    .icon-bar {
+        /* outline: 1px solid red; */
+        height: 90px;
+    }
+
+    /* figcaption {
+        color: rgba(255, 255, 255, .9);
+        font-size: 17px;
+        letter-spacing: 1px;
+        width: 100%;
+        margin-top: 3px;
+        padding: 5px;
+        outline: 1px solid red;
+        text-align: center;
+    } */
+
+    .icon-bar figure i {
+        font-size: 35px;
+    }
+
+    .project-name {
+        font-size: 1.9rem;
+        /* outline: 1px solid red; */
+    }
+
+    .portfolio-content-p p {
+        font-size: 1.1rem;
+        line-height: 2.3rem;
+        /* line-height: 2.5rem; */
+    } 
+
+    .portfolio-content-photo img {
+        height: 70%;
+    }
+
+    .portfolio-content-photo .pseudo-pic {
+        height: 80%;
+        width: 80%;
+        padding: 0;
+    }
+
+    .portfolio-content-photo .yum-world-pic {
+        /* outline: 13px solid blue; */
+     height: 100%;
+     width: 100%;
+    }
+ 
+    .portfolio-content-photo .typewriter-pic {
+            /* outline: 13px solid blue; */
+        height: 100%;
+        width: 100%;
+    }
+    
+    .github-button a {
+        font-size: 18px;
+    }
+
+    footer .footer-title {
+        font-size: .8rem;
+    }
+
+    footer .contact-icon {
+        /* width: 38%; */
+        width: 100%;
+    }
+
+    footer .contact-icon div {
+        padding: 3px;
+    }
+    footer .contact-icon .resume a,
+    footer .contact-icon .email a,
+    footer .contact-icon .github a,
+    footer .contact-icon .linkedin a {
+        font-size: 1rem;
+    }
+
+    .copyright {
+        padding: 2px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    figcaption {
+        font-size: 15px;
+        /* outline: 1px solid red; */
+    }
+
+    .icon-bar figure i {
+        /* outline: 1px solid red; */
+        font-size: 30px;
+    }
+
+}
+
+
+@media screen and (max-width: 1100px) {
+    .hero-title-content {
+        /* outline: 1px solid yellow; */
+        margin: 40px 0 40px 0;
+    }
+    .hero-title-content .title1 {
+        /* outline: 1px solid yellow; */
+        /* margin-top: 300px; */
+        padding-right: 0;
+    } 
+
+    .hero-title-content .title3 {
+        padding-left: 0;
+    }
+    .quote-bar p {
+        /* outline: 1px solid red; */
+        line-height: 1.5em;
+        font-size: 1.1rem;
+    }
+    .about-content {
+        padding: 40px 25px 20px 25px;
+    }
+    .about-content-p p {
+        /* outline: 1px solid green; */
+        line-height: 2rem;
+        width: 100%;
+    }
+    .about-content-photo img{
+        /* outline: 1px solid red; */
+        width: 80%;
+        height: 80%;
+    }
+
+    .project-name {
+        font-size: 1.7rem;
+        /* outline: 1px solid red; */
+    }
+    .portfolio-content-p p {
+        line-height: 2rem;
+    }
+    .portfolio-content-photo img{
+        /* outline: 1px solid red; */
+        width: 75%;
+        height: 75%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .nav-container .nav li, .sticky .title p {
+        font-size: 1.15rem;
+    }
+       
+    .hero-title-content h1 {
+        /* outline: 1px solid blue; */
+        height: 60px;
+        line-height: 40px;
+        font-size: 1.9rem;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .quote-bar p {
+     
+    }
+
+    .about-content-photo {
+        padding: 10px 5px;
+    }
+
+    .about-content-photo img {
+        /* outline: 1px solid blue; */
+        /* height: 100%; */
+        width: 85%;
+    }
+
+    .portfolio-content {
+        /* outline: 1px solid green; */
+        flex-direction: row;
+    }
+
+    .portfolio-content-p {
+        /* outline: 1px solid green; */
+        font-size: 1rem;
+        width: 90%;
+    }
+
+    .portfolio-content-photo {
+        width: 100%;
+    }
+
+    footer .contact-icon .resume a,
+    footer .contact-icon .email a,
+    footer .contact-icon .github a,
+    footer .contact-icon .linkedin a {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .nav-container div {
+        height: 45px;
+        justify-content: center;
+    }
+
+    .quote-bar p {
+        line-height: 1.3em;
+    }
+
+    .hero-title-content {
+        /* outline: 1px solid yellow; */
+        margin: 90px 0 40px 0;
+    }
+
+    .about-content {
+        flex-direction: column-reverse;
+    }
+
+    .about-content-p {
+        width: 80%;
+    }
+
+    .about-content-photo {
+        /* outline: 1px solid green; */
+        margin-bottom: 20px;
+    }
+    .about-content-photo img {
+        width: 75%;
+        /* outline: 1px solid red; */
+    }
+
+    figcaption {
+        font-size: 15px;
+        /* outline: 1px solid red; */
+    }
+
+    .icon-bar figure i {
+        /* outline: 1px solid red; */
+        font-size: 25px;
+    }
+
+    .portfolio-content-photo {
+        width: 100%;
+        padding: 0;
+    }
+
+    .portfolio-content-photo .yum-world-pic {
+        /* outline: 13px solid blue; */
+        height: 85%;
+        width: 85%;
+    }
+ 
+    .portfolio-content-photo .typewriter-pic {
+            /* outline: 13px solid blue; */
+        height: 85%;
+        width: 85%;
+    }
+
+    
+
+    .portfolio-content {
+        flex-direction: column;
+    }
+
+    .portfolio-content-p {
+        width: 80%;
+    }
+
+    .portfolio-content-photo {
+        width: 70%;
+    }
+    .portfolio-content-photo img {
+        width: 55%;
+    }
+
+}
+
+ @media screen and (max-width: 850px) {
+
+    .nav-container .nav li, .sticky .title p {
+        font-size: .95rem;
+        letter-spacing: 1px;
+    }
+
+    .about-content-p {
+        width: 100%;
+    }
+
+    .quote-bar p{
+        line-height: 1.5rem;
+        font-size: 1.05rem;
+    }
+
+    .about-content-photo {
+        width: 50%;
+    }
+
+    .about-content-photo img {
+        /* outline: 1px solid red; */
+        width: 80%;
+    }
+
+    .portfolio-content-p {
+        width: 100%;
+    }
+
+    .portfolio-content-photo {
+        width: 90%;
+    }
+
+    .portfolio-content-photo img{
+        width: 50%;
+    }
+
+    .portfolio-content-photo .pseudo-pic {
+        height: 80%;
+        width: 80%;
+        padding: 0;
+    }
+
+
+ }
+ @media screen and (max-width: 750px) {
+
+    .nav-container .nav {
+        flex-basis:  100%;
+        justify-content: space-evenly;
+        padding-right: 0;
+    }
+
+    .sticky .title {
+        display: none;
+    }
+    .portfolio-content-photo img{
+        width: 60%;
+    }
+
+    .quote-bar p {
+        font-size: .9rem;
+        letter-spacing: 2px;
+    }
+
+    figcaption {
+        font-size: 13px;
+        /* outline: 1px solid red; */
+    }
+
+    .icon-bar figure i {
+        /* outline: 1px solid red; */
+        font-size: 25px;
+    }
+
+    footer .contact-icon .resume a,
+    footer .contact-icon .email a,
+    footer .contact-icon .github a,
+    footer .contact-icon .linkedin a {
+        font-size: 1rem;
+        letter-spacing: 2px;
+        /* outline: 1px solid red; */
+    } 
+ }
+
+@media screen and (max-width: 600px) {
+
+    .quote-bar p {
+        line-height: 1.3rem;
+        /* outline: 1px solid red; */
+        font-size: .9rem;
+        letter-spacing: 2px;
+    }
+    .about-content-photo img {
+        /* outline: 1px solid red; */
+        width: 100%;
+    }
+
+    figcaption {
+        font-size: 11px;
+        padding: 0;
+        /* margin: 0; */
+        /* outline: 1px solid red; */
+    }
+
+    .icon-bar figure i {
+        /* outline: 1px solid red; */
+        font-size: 23px;
+        padding: 0;
+        /* margin: 0; */
+    }
+
+    .portfolio-content-photo .pseudo-pic {
+        height: 80%;
+        width: 80%;
+        padding: 0;
+    }
+
+    .project-name {
+        width: 100%;
+        font-size: 1.5rem;
+        /* outline: 1px solid red; */
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .quote-bar {
+        height: 90px;
+    }
+
+    .quote-bar p {
+        /* outline: 1px solid red; */
+        font-size: .85rem;
+        line-height: 1.3rem;
+        letter-spacing: 1px;
+    }
+
+    .about-content-p p{
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+
+    .about-content-photo {
+        padding: 0;
+    }
+
+    .icon-bar {
+        height: 70px;
+    }
+
+    .portfolio-content {
+        /* outline: 1px solid red; */
+        padding: 40px 30px;
+    }
+
+    .portfolio-content-photo .yum-world-pic {
+        /* outline: 13px solid blue; */
+        height: 90%;
+        width: 90%;
+    }
+ 
+    .portfolio-content-photo .typewriter-pic {
+            /* outline: 13px solid blue; */
+        height: 90%;
+        width: 90%;
+    }
+    
+    .portfolio-content-p {
+        width: 100%;
+        padding: 0;
+    }
+
+    .portfolio-content-p p {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+
+    .portfolio-content-photo img{
+        width: 65%;
+    }
+
+    figcaption {
+        font-size: 10px;
+        /* outline: 1px solid red; */
+    }
+
+    .icon-bar figure i {
+        /* outline: 1px solid red; */
+        font-size: 22px;
+    }
+
+    footer .contact-icon .resume a,
+    footer .contact-icon .email a,
+    footer .contact-icon .github a,
+    footer .contact-icon .linkedin a {
+        font-size: 1rem;
+        letter-spacing: .11rem;
+        /* outline: 1px solid red; */
+    } 
+}
+@media screen and (max-width: 450px) {
+    .nav-container .nav li {
+        /* outline: 1px solid blue; */
+        /* display: flex; */
+        padding: 13px 10px;
+        letter-spacing: 1.5px;
+        font-size: 20px;
+    }
+    .quote-bar {
+        /* height: 115px; */
+    }
+
+    .quote-bar p {
+        font-size: .9rem;
+        line-height: 1.3rem;
+        letter-spacing: 0.02rem;
+    }
+
+    .about-content-p p {
+        font-size: 1rem;
+        letter-spacing: 1.3px;
+        line-height: 1.35rem;
+    }
+    .about-content-photo {
+        width: 100%;
+    }
+    .about-content-photo img {
+        width: 65%;
+    }
+    
+    .resume-button {
+        margin-bottom: 0px;
+    }
+    .resume-button a {
+        font-size: 1.2rem;
+    }
+
+    .project-name {
+
+        font-size: 1.3rem;
+        /* outline: 1px solid red; */
+    }
+
+    .portfolio-content {
+        /* outline: 1px solid red; */
+        padding: 40px 20px;
+    }
+
+
+    .portfolio-content-photo .yum-world-pic {
+        /* outline: 13px solid blue; */
+     height: 90;
+     width: 90;
+    }
+ 
+    .portfolio-content-photo .typewriter-pic {
+            /* outline: 13px solid blue; */
+        height: 90;
+        width: 90;
+    }
+
+    .portfolio-content {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .portfolio-content-p p {
+        /* outline: 1px solid yellow; */
+        font-size: 1rem;
+        letter-spacing: 1.3px;
+        line-height: 1.4rem;
+    }
+
+    .portfolio-content-photo img{
+        width: 75%;
+    }
+   
+    .github-button a {
+        /* outline: 1px solid red; */
+        font-size: 1.1rem;
+        padding: 15px 10px;
+    }
+    
+    figcaption {
+        font-size: 7px;
+        /* outline: 1px solid red; */
+    }
+
+    .icon-bar figure i {
+        /* outline: 1px solid red; */
+        font-size: 20px;
+    }
+
+    footer .contact-icon .resume a,
+    footer .contact-icon .email a,
+    footer .contact-icon .github a,
+    footer .contact-icon .linkedin a {
+        font-size: 1rem;
+        letter-spacing: 0.04rem;
+        /* outline: 1px solid red; */
+    } 
+}
+
+
+@media screen and (max-width: 360px) {
+
+    .hero-title-content {
+        /* outline: 1px solid red; */
+        font-size: 1.1rem;
+        margin-top: 20px;
+    }
+
+    .quote-bar p {
+        font-size: .81rem;
+        line-height: 1.3rem;
+        letter-spacing: 0.02rem;
+    }
+
+    .about-content-p p{
+        /* width: 100%; */
+          /* outline: 1px solid red; */
+        line-height: 1.5rem;
+        letter-spacing: 1px;
+        font-size: .9rem;
+    }
+
+    .about-content-photo {
+        width: 100%;
+    }
+
+    .about-content-photo img {
+        width: 70%;
+        /* outline: 1px solid red; */
+    }
+
+    figcaption {
+        font-size: 6px;
+        letter-spacing: 0;
+        /* outline: 1px solid red; */
+    }
+
+    .icon-bar figure i {
+        /* outline: 1px solid red; */
+        font-size: 18px;
+    }
+
+    .portfolio-content-p p {
+        width: 100%;
+        line-height: 1.5rem;
+        letter-spacing: 1px;
+        font-size: .9rem;
+    }
+
+    .portfolio-content-photo {
+        width: 90%;
+    }
+
+
+    .github-button {
+        width: 70%;
+        height: 50px;
+    }
+
+    .github-button a {
+        /* outline: 1px solid red; */
+        padding: 15px 10px;
+    }
+
+    footer .contact-icon .resume a,
+    footer .contact-icon .email a,
+    footer .contact-icon .github a,
+    footer .contact-icon .linkedin a {
+        font-size: .8rem;
+        letter-spacing: 0.05rem;
+        /* outline: 1px solid red; */
+    } 
+} 
