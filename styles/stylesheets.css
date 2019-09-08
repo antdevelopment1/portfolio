@@ -202,9 +202,8 @@ blockquote {
   font-size: 20px;
   width: 53.5%;
   color: rgba(255, 255, 255, 0.3);
-
   font-weight: 300;
-  border-left: 10px solid rgba(255, 255, 255, 0.3);
+  border-left: 10px solid #5b5d68;
   margin: 1.3rem 2rem;
   quotes: "\201C""\201D""\2018""\2019";
   padding: 5px 20px;
@@ -237,8 +236,8 @@ blockquote:before {
 .hero-button-container a {
   letter-spacing: 5px;
   margin-bottom: 5px;
-  font-size: 23px;
-  width: 250px;
+  font-size: 21px;
+  width: 220px;
   font-weight: 200;
   border: 1px solid #141826;
   text-align: center;
@@ -273,7 +272,8 @@ blockquote:before {
 
 /* animation */
 .nav-container,
-.hero-title-content {
+.hero-title-content,
+.media {
   animation: 1s fadein 0.4s forwards;
   opacity: 0;
 }
@@ -296,92 +296,68 @@ blockquote:before {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-.quote-bar {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  /* outline: 1px solid red; */
-  height: 115px;
-  width: 100%;
-  background-color: black;
-}
-
-.quote-bar p {
-  width: 90%;
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  color: white;
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.4rem;
-  letter-spacing: 3px;
-  line-height: 2rem;
-  text-align: center;
-  /* outline: 1px solid green; */
-}
-
 .about-content {
   display: flex;
-  flex-direction: row;
-  /* outline: 1px solid blue; */
-  margin: 50px auto 10px auto;
-  padding: 80px 50px;
+  justify-content: center;
   width: 100%;
-  align-content: center;
   align-items: center;
+  position: relative;
+  /* margin-bottom: 6rem; */
 }
 
 .about-content-p {
   display: flex;
   flex-direction: column;
-  /* outline: 1px solid red; */
+  justify-content: center;
   align-content: center;
-  width: 50%;
+  width: 55%;
   height: 100%;
-  padding: 10px;
+  padding: 10px 30px;
+  margin-top: 6rem;
+  /* border: 1px solid black; */
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+  padding: 30px 100px;
 }
 .about-content-p p {
-  align-self: center;
-  /* outline: 1px solid blue; */
-  width: 90%;
-  padding: 20px 0px;
-  font-size: 1.7rem;
-  line-height: 2.5rem;
-  letter-spacing: 1px;
+  width: 100%;
+  padding: 15px 0px;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.03rem;
 }
 
 .about-content-photo {
-  display: flex;
-  justify-content: center;
-  /* outline: 1px solid green; */
-  width: 50%;
-  height: 100%;
-  padding: 30px;
 }
 
 .about-content-photo img {
-  align-self: center;
-  height: 90%;
-  width: 65%;
+  position: absolute;
+  top: 50px;
+  right: 250px;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.4);
+  /* align-self: center; */
+  height: 200px;
+  border-radius: 50%;
   /* outline: 1px solid red; */
 }
 
 .resume-button {
   /* outline: 1px solid blue; */
-  width: 50%;
+  width: 100%;
   height: 75px;
-  margin: 5px auto 80px auto;
+  margin: 30px auto 10px auto;
   padding: 15px;
   text-align: center;
 }
 
 .resume-button a {
   /* outline: 1px solid purple; */
-  font-size: 30px;
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
   width: 100%;
+  margin: 0 20px 0 0;
   padding: 12px 20px 12px 20px;
   color: black;
-  border: 1px solid black;
+
   border-radius: 2px;
   /* box-shadow: 4px 4px 4px black; */
   transition: background-color 0.2s ease-in-out 0.1s,
@@ -399,10 +375,11 @@ blockquote:before {
 
 .icon-bar {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
-  height: 130px;
+  height: 200px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(./../images/sacredg.jpg);
   background-position: center;
@@ -411,16 +388,23 @@ blockquote:before {
   /* outline: 1px solid red; */
 }
 
+.icon-background {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  /* outline: 1px solid red; */
+}
+
 figure {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  /* width: 100%; */
+  width: 150px;
+  /* outline: 1px solid red; */
 }
 
 figcaption {
   color: rgba(255, 255, 255, 0.9);
-  font-size: 17px;
+  font-size: 12px;
   letter-spacing: 1px;
   width: 100%;
   margin-top: 3px;
@@ -430,8 +414,7 @@ figcaption {
 }
 
 .icon-bar figure i {
-  margin: auto 0;
-  font-size: 50px;
+  font-size: 35px;
   color: white;
   text-align: center;
   /* outline: 1px solid red; */
