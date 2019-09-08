@@ -40,13 +40,13 @@ p {
 .hero-section {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)),
     url(./../images/sacredg.jpg);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
-  height: 100%;
-  justify-content: center;
+  height: 100vh;
   /* outline: 2px solid blue; */
 }
 
@@ -86,15 +86,15 @@ p {
   letter-spacing: 1rem;
   text-transform: uppercase;
   text-align: center;
-  color: rgba(255, 255, 255, 0.6);
-  text-shadow: 1px 1px 6px rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.7);
+  /* text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.6); */
   /* letter-spacing: 1px; */
 }
 
 .job-title {
   font-size: 1rem;
-  font-weight: 600;
-  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .nav-container .nav li {
@@ -129,7 +129,8 @@ p {
   position: fixed;
   align-content: center;
   width: 100%;
-  background-color: rgb(20, 20, 20);
+  /* background-color: rgb(20, 20, 20); */
+  background-color: #141826;
   top: 0;
   left: 0;
   z-index: 1;
@@ -157,39 +158,115 @@ p {
   /* outline: 3px solid yellow; */
   display: flex;
   flex-direction: column;
-  height: 100%;
-  margin: 0px 0 200px 0;
+  align-content: center;
+
   width: 100%;
+  margin-bottom: 200px;
   color: rgba(255, 255, 255, 0.8);
 }
 
-.hero-title-content h1 {
+.hero-button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  z-index: 10;
+  /* outline: 1px solid red; */
+}
+
+.media {
+  background: #141826;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-container {
+  width: 90%;
   display: flex;
   justify-content: center;
-  letter-spacing: 7.5px;
-  line-height: 80px;
-  font-size: 50px;
-  height: 100px;
-  width: 100%;
+}
+
+.quote-container p {
+  line-height: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.author {
+  color: rgba(255, 255, 255, 0.548);
+}
+
+blockquote {
+  font-size: 20px;
+  width: 53.5%;
+  color: rgba(255, 255, 255, 0.3);
+
   font-weight: 300;
-  /* padding-top: 40px; */
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
-  transition: text-shadow 0.2s ease-in-out 0.1s;
+  border-left: 10px solid rgba(255, 255, 255, 0.3);
+  margin: 1.3rem 2rem;
+  quotes: "\201C""\201D""\2018""\2019";
+  padding: 5px 20px;
+  letter-spacing: 3px;
+}
+
+blockquote:before {
+  content: open-quote;
+  display: inline;
+  line-height: 0.5;
+  left: -10px;
+  position: relative;
+  top: 20px;
+  color: rgba(189, 189, 189, 0.6);
+  font-size: 3em;
+}
+.sticky-info {
+  display: flex;
+  position: fixed;
+  align-content: center;
+  width: 100%;
+  /* background-color: rgb(20, 20, 20); */
+  background-color: #141826;
+  top: 30px;
+  left: 0;
+  z-index: 1;
+  /* outline: 1px solid purple; */
+}
+
+.hero-button-container a {
+  letter-spacing: 5px;
+  margin-bottom: 5px;
+  font-size: 23px;
+  width: 250px;
+  font-weight: 200;
+  border: 1px solid #141826;
+  text-align: center;
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.3); */
+  color: rgba(255, 255, 255, 0.7);
+  box-shadow: 3px 3px 6px rgba(255, 255, 255, 0.2);
+  background-color: #141826;
+  border-radius: 10px;
+  transition: background-color 0.2s ease-in-out 0.1s,
+    color 0.2s ease-in-out 0.1s;
+  padding: 10px 0;
+
   /* outline: 7px solid green; */
 }
 
-.hero-title-content h1:hover {
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.6);
+.hero-title-content a:hover {
+  background-color: white;
+  color: #141826;
 }
 
 .hero-title-content .title1 {
-  padding-right: 500px;
-  margin-top: 270px;
+  /* padding-right: 300px; */
+  margin-top: 230px;
   /* outline: 4px solid blue; */
 }
 
 .hero-title-content .title3 {
-  padding-left: 500px;
+  /* padding-left: 300px; */
   margin-bottom: 200px;
   /* outline: 4px solid blue; */
 }
