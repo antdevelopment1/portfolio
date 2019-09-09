@@ -112,7 +112,8 @@ p {
   justify-content: center;
   position: fixed;
   left: 0;
-  z-index: 10;
+  top: 80px;
+  z-index: 1;
   /* outline: 1px solid red; */
 }
 
@@ -255,7 +256,7 @@ blockquote:before {
 
   blockquote {
     font-size: 18px;
-    margin-left: 200px;
+    margin-left: 160px;
   }
 
   blockquote:before {
@@ -289,7 +290,7 @@ blockquote:before {
 
   blockquote {
     font-size: 16px;
-    margin-left: 240px;
+    /* margin-left: 160px; */
   }
 
   blockquote:before {
@@ -332,7 +333,7 @@ blockquote:before {
 
   blockquote {
     font-size: 12px;
-    margin-left: 160px;
+    /* margin-left: 160px; */
     /* border-left: 7px solid #5b5d68; */
   }
 }
@@ -421,7 +422,6 @@ blockquote:before {
   margin: 0 20px 0 0;
   padding: 12px 20px 12px 20px;
   color: black;
-
   border-radius: 2px;
   /* box-shadow: 4px 4px 4px black; */
   transition: background-color 0.2s ease-in-out 0.1s,
@@ -429,32 +429,36 @@ blockquote:before {
 }
 
 .resume-button a:hover {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: #141826;
   color: white;
 }
 
 .shim {
   color: white;
 }
-
+/* ------------ */
+/* ICON BAR */
+/* ------------ */
 .icon-bar {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   width: 100%;
-  height: 200px;
+  height: 550px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(./../images/sacredg.jpg);
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
+
+  /* padding-top: 10rem; */
   /* outline: 1px solid red; */
 }
 
 .icon-background {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   width: 70%;
   /* outline: 1px solid red; */
 }
@@ -462,7 +466,9 @@ blockquote:before {
 figure {
   display: flex;
   flex-direction: column;
-  width: 150px;
+  width: 130px;
+  padding: 1rem 0;
+  margin: 0 2rem;
   /* outline: 1px solid red; */
 }
 
@@ -700,6 +706,30 @@ figcaption {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .resume-button {
+    /* outline: 1px solid blue; */
+    width: 100%;
+    height: 75px;
+    margin: 30px auto 0px auto;
+    padding: 15px 0 0 0;
+    text-align: center;
+  }
+
+  .resume-button a {
+    /* outline: 1px solid purple; */
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+    width: 100%;
+    margin: 0 10px 0 0;
+    padding: 12px 20px 12px 20px;
+    color: black;
+    border-radius: 2px;
+    transition: background-color 0.2s ease-in-out 0.1s,
+      color 0.2s ease-in-out 0.1s;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .about-content-photo img {
     top: 60px;
@@ -712,6 +742,22 @@ figcaption {
 
   .about-content-p {
     padding-right: 70px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .resume-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .resume-button a {
+    border: 1px solid rgba(139, 139, 139, 0.65);
+    font-size: 14px;
+    width: 90%;
+    margin-bottom: 10px;
   }
 }
 
@@ -732,7 +778,7 @@ figcaption {
 
 @media screen and (max-width: 500px) {
   .about-content-p {
-    padding-right: 30px;
+    padding-right: 40px;
     width: 85%;
   }
 
@@ -745,6 +791,64 @@ figcaption {
     top: 80px;
     right: 20px;
     height: 100px;
+  }
+}
+
+/* =====================
+ ICON BAR SECTION
+====================== */
+@media screen and (max-width: 1350px) {
+  .icon-bar {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url(./../images/sacredg.jpg);
+    /* outline: 1px solid red; */
+  }
+
+  .icon-background {
+    width: 85%;
+    /* padding-left: 8rem; */
+    /* outline: 1px solid red; */
+  }
+
+  figure {
+    /* outline: 1px solid red; */
+    margin: 0 1rem;
+  }
+
+  figcaption {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 12px;
+    /* letter-spacing: 1px; */
+    width: 100%;
+    margin-top: 3px;
+    /* padding: 5px; */
+    /* outline: 1px solid red; */
+    text-align: center;
+  }
+
+  .icon-bar figure i {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    /* outline: 1px solid red; */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .icon-bar figure i {
+    font-size: 25px;
+
+    /* outline: 1px solid red; */
+  }
+
+  .icon-background {
+    width: 85%;
+    padding-left: 4rem;
+    /* outline: 1px solid red; */
+  }
+
+  figure {
+    margin: 0 0.5rem;
   }
 }
 
@@ -855,7 +959,8 @@ footer {
   width: 100%;
   height: 100%;
   padding-top: 10px;
-  background-color: black;
+
+  background-color: #0b0d15;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -865,9 +970,9 @@ footer .footer-title {
   text-align: center;
   padding-bottom: 5px;
   text-align: center;
-  letter-spacing: 4px;
+  letter-spacing: 1px;
 
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 footer .contact-icon {
@@ -890,19 +995,19 @@ footer .contact-icon div {
   align-content: center;
   align-items: center;
   /* padding: 7px 0; */
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 footer .contact-icon div i {
   margin-right: 15px;
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding-left: 15px;
   /* outline: 1px solid red; */
 }
 
 footer .contact-icon .resume {
-  font-size: 1.2rem;
-  letter-spacing: 4px;
+  font-size: 1rem;
+  letter-spacing: 2px;
   line-height: 1.3rem;
   color: rgba(18, 87, 38, 0.6);
   transition: color 0.2s ease-in-out 0.1s;
@@ -927,8 +1032,8 @@ footer .contact-icon .email {
   transition: color 0.2s ease-in-out 0.1s;
 }
 footer .contact-icon .email a {
-  font-size: 1.2rem;
-  letter-spacing: 4px;
+  font-size: 1rem;
+  letter-spacing: 2px;
   line-height: 1.3rem;
   color: rgba(255, 255, 255, 0.7);
   transition: color 0.2s ease-in-out 0.1s;
@@ -949,8 +1054,8 @@ footer .contact-icon .github {
 
 footer .contact-icon .github a {
   color: rgba(255, 255, 255, 0.7);
-  font-size: 1.2rem;
-  letter-spacing: 4px;
+  font-size: 1rem;
+  letter-spacing: 2px;
   line-height: 1.3rem;
   transition: color 0.2s ease-in-out 0.1s;
 }
@@ -970,7 +1075,7 @@ footer .contact-icon .linkedin {
 
 footer .contact-icon .linkedin a {
   color: rgba(255, 255, 255, 0.7);
-  font-size: 1.2rem;
+  font-size: 1rem;
   letter-spacing: 4px;
   line-height: 1.3rem;
   transition: color 0.2s ease-in-out 0.1s;
