@@ -446,7 +446,7 @@ blockquote:before {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 550px;
+  height: 350px;
   background-image: linear-gradient(#131826, #131826),
     url(./../images/sacredg.jpg);
   background-position: center;
@@ -474,7 +474,7 @@ figure {
 }
 
 figcaption {
-  color: rgba(255, 255, 255, 0.9);
+  color: #6e6f74;
   font-size: 12px;
   letter-spacing: 1px;
   width: 100%;
@@ -494,6 +494,7 @@ figcaption {
 .icon-bar .fa-html5 {
   /* color: rgba(255, 85, 0, 0.7); */
   color: #bcc5de;
+  color: #90885f;
   transform: scale(1);
   transition: color 0.2s ease-in-out 0.1s, transform 0.2s ease-in-out 0.1s;
   /* outline: 1px solid green; */
@@ -507,6 +508,7 @@ figcaption {
 .icon-bar .fa-css3-alt {
   /* color: rgba(0, 169, 224, 0.7); */
   color: #bcc5de;
+  color: #90885f;
   transform: scale(1);
   transition: color 0.2s ease-in-out 0.1s, transform 0.2s ease-in-out 0.1s;
 }
@@ -519,6 +521,7 @@ figcaption {
 .icon-bar .fa-js {
   /* color: rgba(240, 224, 64, 0.7); */
   color: #bcc5de;
+  color: #90885f;
   transform: scale(1);
   transition: color 0.2s ease-in-out 0.1s, transform 0.2s ease-in-out 0.1s;
 }
@@ -531,6 +534,7 @@ figcaption {
 .icon-bar figure .fa-node {
   /* color: rgba(74, 165, 101, 0.7); */
   color: #bcc5de;
+  color: #90885f;
   transform: scale(1);
   transition: color 0.2s ease-in-out 0.1s, transform 0.2s ease-in-out 0.1s;
 }
@@ -543,6 +547,7 @@ figcaption {
 .icon-bar .fa-database {
   /* color: rgba(228, 133, 204, 0.7); */
   color: #bcc5de;
+  color: #90885f;
   transform: scale(1);
   transition: color 0.2s ease-in-out 0.1s, transform 0.2s ease-in-out 0.1s;
 }
@@ -555,6 +560,7 @@ figcaption {
 .icon-bar .fa-react {
   /* color: rgba(0, 221, 255, 0.7); */
   color: #bcc5de;
+  color: #90885f;
   transform: scale(1);
   transition: color 0.2s ease-in-out 0.1s, transform 0.2s ease-in-out 0.1s;
 }
@@ -567,6 +573,7 @@ figcaption {
 .icon-bar .fa-github {
   /* color: rgba(178, 187, 189, 0.7); */
   color: #bcc5de;
+  color: #90885f;
   transform: scale(1);
   transition: color 0.2s ease-in-out 0.1s, transform 0.2s ease-in-out 0.1s;
 }
@@ -580,6 +587,7 @@ figcaption {
   /* color: #00c3ff;  fallback for old browsers */
   /* color: rgba(255, 229, 102, 0.7); */
   color: #bcc5de;
+  color: #90885f;
   transform: scale(1);
   transition: color 0.2s ease-in-out 0.1s, transform 0.2s ease-in-out 0.1s;
 }
@@ -946,9 +954,9 @@ footer {
   /* justify-content: center; */
   /* align-content: center; */
   width: 100%;
-  height: 100%;
+  height: 300px;
   padding-top: 10px;
-
+  margin-top: 3rem;
   background-color: #0b0d15;
   font-family: "Montserrat", sans-serif;
 }
